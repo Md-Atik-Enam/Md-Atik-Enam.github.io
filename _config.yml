@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "faceProfile.png"
+  avatar           : "faceProfile.jpg"
   name             : "Md Atik Enam"
   pronouns         : # example: "she/her"  
   bio              : "Human-Centered Computing Ph.D. Candidate"
