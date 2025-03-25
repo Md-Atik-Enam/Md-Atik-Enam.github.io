@@ -1,40 +1,47 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
+<h2>Publications</h2>
 
-### Journal Articles
+<h3>Journal Articles</h3>
+<ul>
+  <li>
+    <strong>Md Atik Enam</strong>, Author 2, Author 3, "Title of the Paper," <em>Journal Name</em>, Volume (Issue),
+    Year.
+    <a href="https://example.com" target="_blank">🔗 DOI/Link to paper</a>
+  </li>
+  <li>
+    <strong>Md Atik Enam</strong>, Author 2, "Another Paper Title," <em>Another Journal</em>, Year.
+    <a href="https://example.com" target="_blank">🔗 DOI/Link to paper</a>
+  </li>
+</ul>
 
-1. **Md Atik Enam**, Author 2, Author 3, "Title of the Paper," *Journal Name*, Volume (Issue), Year.
-[🔗 DOI/Link to paper](https://example.com)
+<h3>Conference Papers</h3>
+<ul>
+  <li>
+    <strong>Md Atik Enam</strong>, Author 2, "Title of the Conference Paper," <em>Conference Name (Acronym)</em>, Year.
+    <a href="https://example.com" target="_blank">🔗 DOI/Link to paper</a>
+  </li>
+  <li>
+    <strong>Md Atik Enam</strong>, Author 2, "Another Conference Paper," <em>Conference Name</em>, Year.
+    <a href="https://example.com" target="_blank">🔗 DOI/Link to paper</a>
+  </li>
+</ul>
 
-{% if site.author.googlescholar %}
-<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar
-    profile</a>.</div>
-{% endif %}
+<h3>Workshop Papers</h3>
+<ul>
+  <li>
+    <strong>Md Atik Enam</strong>, Author 2, "Workshop Paper Title," <em>Workshop Name @ Conference Name</em>, Year.
+    <a href="https://example.com" target="_blank">🔗 DOI/Link to paper</a>
+  </li>
+</ul>
 
-{% include base_path %}
+<h3>Preprints</h3>
+<ul>
+  <li>
+    <strong>Md Atik Enam</strong>, Author 2, "Preprint Title," <em>arXiv/Other Repository</em>, Year.
+    <a href="https://arxiv.org/abs/example" target="_blank">🔗 DOI/Link to preprint</a>
+  </li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-{% for category in site.publication_category %}
-{% assign title_shown = false %}
-{% for post in site.publications reversed %}
-{% if post.category != category[0] %}
-{% continue %}
-{% endif %}
-{% unless title_shown %}
-<h2>{{ category[1].title }}</h2>
-<hr />
-{% assign title_shown = true %}
-{% endunless %}
-{% include archive-single.html %}
-{% endfor %}
-{% endfor %}
-{% else %}
-{% for post in site.publications reversed %}
-{% include archive-single.html %}
-{% endfor %}
-{% endif %}
+<hr>
+
+<p>You can also find my articles on my <a href="https://scholar.google.com/citations?user=g4BAX40AAAAJ&hl=en"
+    target="_blank">Google Scholar</a> profile.</p>
