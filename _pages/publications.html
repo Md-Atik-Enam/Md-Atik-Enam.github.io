@@ -35,7 +35,7 @@ author_profile: true
 {% assign workshop_papers = site.publications | where: "category", "workshop" | reverse %}
 {% for post in workshop_papers %}
     <p>
-        <strong>[C{{ forloop.index }}]</strong> {{ post.title }}, {{ post.authors }}, 
+        <strong>[W{{ forloop.index }}]</strong> {{ post.title }}, {{ post.authors }}, 
         <em>{{ post.venue }}</em>, {{ post.year }}.
         {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
     </p>

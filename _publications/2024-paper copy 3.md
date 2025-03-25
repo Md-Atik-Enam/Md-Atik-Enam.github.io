@@ -5,5 +5,6 @@ venue: "2019 International Conference on Electrical, Computer and Communication 
 year: 2019
 pages: "1–6"
 organization: "IEEE"
+link: "https://ieeexplore.ieee.org/abstract/document/8679506"
 category: "conference"
 ---
