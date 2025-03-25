@@ -22,8 +22,9 @@ I am always looking for opportunities to collaborate on exciting projects or ass
     {% for news in site.news %}
       <li>
         <strong>{{ news.title }}</strong> - {{ news.date | date: "%B %d, %Y" }}
-        <p>{{ news.excerpt | replace: '[here]', '<a href="' | append: news.url | append: '">here</a>' }}</p>
+        <p>{{ news.excerpt | replace: '[here]', '<a href="' | append: news.url | append: '" target="_blank">here</a>' }}</p>
       </li>
     {% endfor %}
   </ul>
 </div>
+
