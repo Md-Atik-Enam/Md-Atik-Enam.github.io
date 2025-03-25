@@ -17,11 +17,13 @@ I am always looking for opportunities to collaborate on exciting projects or ass
 
 ## Latest News
 
-<ul>
-  {% for news in site.news %}
-    <li>
-      <strong><a href="{{ news.url }}">{{ news.title }}</a></strong> - {{ news.date | date: "%B %d, %Y" }}
-      <p>{{ news.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<div class="latest-news">
+  <ul>
+    {% for news in site.news %}
+      <li>
+        <strong>{{ news.title }}</strong> - {{ news.date | date: "%B %d, %Y" }}
+        <p>{{ news.excerpt | replace: '[here]', '<a href="' + news.url + '">here</a>' }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
