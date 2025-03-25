@@ -12,25 +12,21 @@ author_profile: true
 {% endif %}
 
 <h3>Journal Articles</h3>
-<ol reversed>
 {% assign journal_papers = site.publications | where: "category", "journal" | reverse %}
 {% for post in journal_papers %}
-    <li>
-        <strong>J{{ forloop.index }}</strong>: <strong>{{ post.title }}</strong>, {{ post.authors }}, 
+    <p>
+        <strong>[J{{ forloop.index }}]</strong> {{ post.title }}, {{ post.authors }}, 
         <em>{{ post.venue }}</em>, {{ post.year }}.
         {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
-    </li>
+    </p>
 {% endfor %}
-</ol>
 
 <h3>Conference Papers</h3>
-<ol reversed>
 {% assign conference_papers = site.publications | where: "category", "conference" | reverse %}
 {% for post in conference_papers %}
-    <li>
-        <strong>C{{ forloop.index }}</strong>: <strong>{{ post.title }}</strong>, {{ post.authors }}, 
+    <p>
+        <strong>[C{{ forloop.index }}]</strong> {{ post.title }}, {{ post.authors }}, 
         <em>{{ post.venue }}</em>, {{ post.year }}.
         {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
-    </li>
+    </p>
 {% endfor %}
-</ol>
