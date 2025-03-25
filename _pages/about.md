@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Hi there, I'm Atik!
+title: Hello there!
 author_profile: true
 redirect_from: 
   - /about/
