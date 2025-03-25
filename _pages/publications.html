@@ -5,31 +5,32 @@ permalink: /publications/
 author_profile: true
 ---
 
+<h2>Publications</h2>
+
 {% if site.author.googlescholar %}
-<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar
-    profile</a>.</div>
+<p>You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>.</p>
 {% endif %}
 
-{% include base_path %}
+<h3>Journal Articles</h3>
+<ul>
+{% for post in site.publications reversed %}
+    {% if post.category == "journal" %}
+    <li>
+        <strong>{{ post.title }}</strong>, {{ post.authors }}, <em>{{ post.venue }}</em>, {{ post.year }}.
+        {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-{% for category in site.publication_category %}
-{% assign title_shown = false %}
+<h3>Conference Papers</h3>
+<ul>
 {% for post in site.publications reversed %}
-{% if post.category != category[0] %}
-{% continue %}
-{% endif %}
-{% unless title_shown %}
-<h2>{{ category[1].title }}</h2>
-<hr />
-{% assign title_shown = true %}
-{% endunless %}
-{% include archive-single.html %}
+    {% if post.category == "conference" %}
+    <li>
+        <strong>{{ post.title }}</strong>, {{ post.authors }}, <em>{{ post.venue }}</em>, {{ post.year }}.
+        {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
+    </li>
+    {% endif %}
 {% endfor %}
-{% endfor %}
-{% else %}
-{% for post in site.publications reversed %}
-{% include archive-single.html %}
-{% endfor %}
-{% endif %}
+</ul>
