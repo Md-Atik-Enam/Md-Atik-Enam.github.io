@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
-
 
 I am **Md Atik Enam**, a PhD candidate in [Human-Centered Computing](https://www.clemson.edu/cecas/departments/computing/academics/graduates/degrees/phd-hcc.html){:target="_blank"} at Clemson University. I am extremely fortunate to be advised by [Dr. Julian Brinkley](https://scholar.google.com/citations?user=g4BAX40AAAAJ&hl=en){:target="_blank"} at Clemson University. I work as a Graduate Research Assistant in the [DRIVE Lab](https://www.drivelab.ai/){:target="_blank"} at the [Clemson University International Center for Automotive Research (CU-ICAR)](https://cuicar.com/){:target="_blank"}. I have worked on projects funded by **NHTSA, Google, US Army GVSC, and NSF** and assisted in writing up project reports.  
 
