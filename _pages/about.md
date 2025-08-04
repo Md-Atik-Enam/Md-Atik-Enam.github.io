@@ -17,8 +17,7 @@ In my free time, I enjoy 🥾 hiking, 🚶 walking, 🏃 running, and 🍳 cooki
 I am always looking for opportunities to collaborate on exciting projects or assist with research that aligns with my interests. If you'd like to connect, feel free to **[email me](mailto:menam@g.clemson.edu)**. 🙂
 
 ## 👋 I'm Open to New Opportunities
-
-I’m actively seeking research-focused positions in both **academia** and **industry**. If you know of any relevant opportunities or are interested in potential collaboration, please don’t hesitate to [get in touch](mailto:menam@g.clemson.edu).
+I’m actively seeking research-focused positions, including tenure-track and postdoctoral roles in academia, as well as researcher positions in industry. If you know of any relevant opportunities, please don’t hesitate to [get in touch](mailto:menam@g.clemson.edu).
 
 
 ## Latest News
