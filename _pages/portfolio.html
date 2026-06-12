@@ -1,14 +1,72 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "UX Research Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<section class="portfolio-overview" aria-label="Portfolio overview">
+  <div>
+    <p class="portfolio-intro">Selected PhD research projects reframed as industry-facing UX, usability, and human factors case studies. These projects show how I move from ambiguous product questions to evidence, user insight, and actionable design recommendations.</p>
+  </div>
+  <div class="portfolio-quick-facts" aria-label="Research strengths">
+    <span>UX research</span>
+    <span>Human factors</span>
+    <span>Accessibility</span>
+    <span>Mixed methods</span>
+  </div>
+</section>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<div class="portfolio-card-list">
+{% assign portfolio_items = site.portfolio | sort: "order" %}
+{% for post in portfolio_items %}
+  {% assign card = post.card %}
+  {% assign thumbnail = card.thumbnail | default: post.header.teaser %}
+  <article class="portfolio-card" itemscope itemtype="http://schema.org/CreativeWork">
+    <a class="portfolio-card__media" href="{{ post.url | relative_url }}" aria-label="View {{ post.title }}">
+      {% if thumbnail %}
+        <img src="{% if thumbnail contains '://' %}{{ thumbnail }}{% else %}{{ thumbnail | prepend: '/images/' | relative_url }}{% endif %}" alt="{{ card.thumbnail_alt | default: post.title | escape }}">
+      {% endif %}
+      <div class="portfolio-card__stat">
+        <strong>{{ card.stat | escape }}</strong>
+        <span>{{ card.stat_label | escape }}</span>
+      </div>
+    </a>
+
+    <div class="portfolio-card__body">
+      <p class="portfolio-card__label">{{ card.label | escape }}</p>
+      <h2 class="portfolio-card__title" itemprop="headline"><a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a></h2>
+      <p class="portfolio-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | strip }}</p>
+
+      <dl class="portfolio-card__facts">
+        <div>
+          <dt>Methods</dt>
+          <dd>{{ card.methods | escape }}</dd>
+        </div>
+        <div>
+          <dt>Participants</dt>
+          <dd>{{ card.sample | escape }}</dd>
+        </div>
+        <div>
+          <dt>Evidence</dt>
+          <dd>{{ card.evidence | escape }}</dd>
+        </div>
+        <div>
+          <dt>Research impact</dt>
+          <dd>{{ card.impact | escape }}</dd>
+        </div>
+      </dl>
+
+      <div class="portfolio-card__tags" aria-label="Project themes">
+        {% for tag in card.tags %}
+          <span>{{ tag | escape }}</span>
+        {% endfor %}
+      </div>
+
+      <a class="portfolio-card__link" href="{{ post.url | relative_url }}">View case study</a>
+    </div>
+  </article>
 {% endfor %}
-
+</div>

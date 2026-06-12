@@ -142,11 +142,18 @@
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Inclusive AI for Older Adults",
+      "category": "UX Research",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "/portfolio/inclusive-ai-older-adults/",
+      "description": "Qualitative UX research on older adults' trust, mental models, privacy concerns, and adoption expectations for LLM-based chatbots."
+    },
+    {
+      "name": "Accessible iHMI for Autonomous Vehicles",
+      "category": "Human Factors",
+      "date": "",
+      "url": "/portfolio/accessible-autonomous-vehicle-ihmi/",
+      "description": "Mixed-methods evaluation of an accessible autonomous-vehicle interface with participants with and without disabilities."
     }
   ]
 }

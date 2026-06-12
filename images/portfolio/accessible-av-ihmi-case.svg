@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Accessible autonomous vehicle iHMI research case study visual</title>
+  <desc id="desc">A real-road autonomous vehicle simulator with an adaptive in-vehicle interface balancing accessibility, safety, and information load.</desc>
+  <rect width="1200" height="675" fill="#fbfbf8"/>
+  <rect x="58" y="54" width="1084" height="567" rx="8" fill="#ffffff" stroke="#dedbd0" stroke-width="3"/>
+  <text x="96" y="118" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Accessible AV interface evaluation</text>
+  <text x="96" y="158" font-family="Arial, sans-serif" font-size="21" fill="#4b5563">41-participant mixed-method study in a real-road simulator</text>
+
+  <g transform="translate(92 248)">
+    <path d="M0 226C214 108 412 116 602 190c166 64 310 65 472-22" fill="none" stroke="#d1d5db" stroke-width="92" stroke-linecap="round"/>
+    <path d="M0 226C214 108 412 116 602 190c166 64 310 65 472-22" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="28 28" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(292 258)">
+    <rect x="0" y="72" width="404" height="142" rx="34" fill="#0f766e"/>
+    <path d="M50 72h282l52 54H16z" fill="#1ba485"/>
+    <rect x="84" y="92" width="72" height="48" rx="6" fill="#dff6ef"/>
+    <rect x="180" y="92" width="72" height="48" rx="6" fill="#dff6ef"/>
+    <rect x="276" y="92" width="72" height="48" rx="6" fill="#dff6ef"/>
+    <circle cx="98" cy="218" r="36" fill="#111827"/>
+    <circle cx="306" cy="218" r="36" fill="#111827"/>
+    <circle cx="98" cy="218" r="16" fill="#e5e7eb"/>
+    <circle cx="306" cy="218" r="16" fill="#e5e7eb"/>
+    <rect x="130" y="152" width="156" height="42" rx="8" fill="#ffffff"/>
+    <text x="156" y="179" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f766e">AIVA iHMI</text>
+  </g>
+
+  <g transform="translate(116 222)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="202" height="72" rx="8" fill="#ecfdf5" stroke="#8bd5c1" stroke-width="2"/>
+    <text x="22" y="30" font-size="19" font-weight="700" fill="#047857">Accessibility</text>
+    <text x="22" y="54" font-size="15" fill="#4b5563">voice + awareness</text>
+    <rect x="0" y="92" width="202" height="72" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+    <text x="22" y="122" font-size="19" font-weight="700" fill="#1d4ed8">Safety</text>
+    <text x="22" y="146" font-size="15" fill="#4b5563">control + confidence</text>
+  </g>
+
+  <g transform="translate(846 222)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="220" height="72" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+    <text x="22" y="30" font-size="19" font-weight="700" fill="#b45309">Verbosity</text>
+    <text x="22" y="54" font-size="15" fill="#4b5563">adaptive feedback</text>
+    <rect x="0" y="92" width="220" height="72" rx="8" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="2"/>
+    <text x="22" y="122" font-size="19" font-weight="700" fill="#be185d">Adoption</text>
+    <text x="22" y="146" font-size="15" fill="#4b5563">different priorities</text>
+  </g>
+
+  <g transform="translate(96 520)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="1008" height="52" rx="8" fill="#f3f4f6"/>
+    <text x="24" y="34" font-size="19" fill="#374151">Outcome: inclusive design guidance for shared autonomous mobility</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Inclusive AI research case study visual</title>
+  <desc id="desc">A research workflow showing older adults, an LLM chatbot, trust signals, privacy concerns, and multimodal access needs.</desc>
+  <rect width="1200" height="675" fill="#f7faf8"/>
+  <rect x="56" y="54" width="1088" height="567" rx="8" fill="#ffffff" stroke="#d7e4df" stroke-width="3"/>
+  <text x="94" y="118" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Inclusive AI adoption research</text>
+  <text x="94" y="158" font-family="Arial, sans-serif" font-size="21" fill="#4b5563">20 contextual interviews with older adults using an LLM chatbot</text>
+
+  <g transform="translate(94 218)">
+    <circle cx="58" cy="58" r="42" fill="#bfe3d0"/>
+    <circle cx="58" cy="48" r="15" fill="#1f2937"/>
+    <path d="M24 103c9-24 23-35 34-35s25 11 34 35" fill="#1f2937"/>
+    <circle cx="154" cy="58" r="42" fill="#f9d48a"/>
+    <circle cx="154" cy="48" r="15" fill="#1f2937"/>
+    <path d="M120 103c9-24 23-35 34-35s25 11 34 35" fill="#1f2937"/>
+    <circle cx="250" cy="58" r="42" fill="#f3b6bf"/>
+    <circle cx="250" cy="48" r="15" fill="#1f2937"/>
+    <path d="M216 103c9-24 23-35 34-35s25 11 34 35" fill="#1f2937"/>
+    <text x="22" y="150" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937">Participants</text>
+  </g>
+
+  <g transform="translate(472 190)">
+    <rect x="0" y="0" width="296" height="260" rx="8" fill="#ecfeff" stroke="#5bb5a4" stroke-width="3"/>
+    <rect x="26" y="32" width="244" height="48" rx="8" fill="#ffffff" stroke="#8bd5c1" stroke-width="2"/>
+    <text x="46" y="63" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f766e">Ask anything</text>
+    <rect x="26" y="104" width="244" height="86" rx="8" fill="#ffffff" stroke="#d0e7e0" stroke-width="2"/>
+    <path d="M50 135h138M50 162h184" stroke="#6b7280" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="231" cy="152" r="20" fill="#0f766e"/>
+    <path d="M222 153l7 7 15-18" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="48" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">LLM chatbot</text>
+  </g>
+
+  <path d="M380 314h72" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M438 294l22 20-22 20" fill="none" stroke="#0f766e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M788 314h72" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M846 294l22 20-22 20" fill="none" stroke="#0f766e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(884 190)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="202" height="58" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+    <text x="24" y="37" font-size="20" font-weight="700" fill="#1d4ed8">Credibility</text>
+    <rect x="0" y="76" width="202" height="58" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+    <text x="24" y="113" font-size="20" font-weight="700" fill="#b45309">Privacy</text>
+    <rect x="0" y="152" width="202" height="58" rx="8" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="2"/>
+    <text x="24" y="189" font-size="20" font-weight="700" fill="#be185d">Access</text>
+    <rect x="0" y="228" width="202" height="58" rx="8" fill="#ecfdf5" stroke="#86efac" stroke-width="2"/>
+    <text x="24" y="265" font-size="20" font-weight="700" fill="#047857">Usefulness</text>
+  </g>
+
+  <g transform="translate(94 518)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="1012" height="52" rx="8" fill="#f3f4f6"/>
+    <text x="24" y="34" font-size="19" fill="#374151">Outcome: design guidance for trustworthy, age-inclusive AI products</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Inclusive AI for Older Adults portfolio thumbnail</title>
+  <desc id="desc">A recruiter-facing summary thumbnail for a qualitative UX research study with older adults and LLM chatbots.</desc>
+  <rect width="960" height="620" fill="#f6faf8"/>
+  <rect x="42" y="42" width="876" height="536" rx="28" fill="#ffffff" stroke="#c9ddd6" stroke-width="2"/>
+  <rect x="42" y="42" width="876" height="132" rx="28" fill="#0f766e"/>
+  <path d="M42 146h876v32H42z" fill="#0f766e"/>
+  <text x="78" y="96" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Qualitative UX Research</text>
+  <text x="78" y="137" fill="#d6f4ec" font-family="Segoe UI, Arial, sans-serif" font-size="20">LLM chatbot trust, privacy, and adoption among older adults</text>
+
+  <g transform="translate(78 226)">
+    <circle cx="52" cy="52" r="48" fill="#e7f5f1" stroke="#8bd5c1" stroke-width="3"/>
+    <circle cx="52" cy="40" r="16" fill="#0f766e"/>
+    <path d="M22 84c9-24 51-24 60 0" fill="#0f766e"/>
+    <rect x="126" y="8" width="274" height="88" rx="18" fill="#f8fafc" stroke="#dbe5df" stroke-width="2"/>
+    <text x="154" y="45" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">20 older adults</text>
+    <text x="154" y="75" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="18">Ages 59-93</text>
+  </g>
+
+  <g transform="translate(78 366)">
+    <rect width="230" height="116" rx="20" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+    <text x="24" y="48" fill="#1d4ed8" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">18+ hrs</text>
+    <text x="24" y="82" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="18">interview audio</text>
+  </g>
+
+  <g transform="translate(338 366)">
+    <rect width="230" height="116" rx="20" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+    <text x="24" y="48" fill="#b45309" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">27 codes</text>
+    <text x="24" y="82" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="18">refined codebook</text>
+  </g>
+
+  <g transform="translate(608 218)">
+    <rect width="240" height="270" rx="24" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="2"/>
+    <text x="28" y="54" fill="#be185d" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">15 of 20</text>
+    <text x="28" y="93" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="20">saw potential</text>
+    <text x="28" y="123" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="20">for chatbot</text>
+    <text x="28" y="153" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="20">companionship</text>
+    <path d="M44 210h152" stroke="#be185d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M44 235h104" stroke="#f9a8d4" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <text x="78" y="536" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Recruiter signal:</text>
+  <text x="260" y="536" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="22">trust, onboarding, privacy, accessibility</text>
+</svg>
