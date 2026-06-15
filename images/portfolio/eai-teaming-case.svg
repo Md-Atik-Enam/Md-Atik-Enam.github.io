@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Embodied AI roles case study visual</title>
+  <desc id="desc">A 3 by 3 autonomous-vehicle AI teammate experiment with five latent response profiles.</desc>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <rect x="58" y="54" width="1084" height="567" rx="8" fill="#ffffff" stroke="#d7dee8" stroke-width="3"/>
+  <text x="96" y="118" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Embodied AI teammate experiment</text>
+  <text x="96" y="158" font-family="Arial, sans-serif" font-size="21" fill="#4b5563">3 x 3 between-subject design with 498 valid responses</text>
+
+  <g transform="translate(96 218)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="382" height="258" rx="8" fill="#eef2ff" stroke="#c7d2fe" stroke-width="2"/>
+    <text x="28" y="42" font-size="22" font-weight="700" fill="#312e81">AI role</text>
+    <rect x="28" y="70" width="326" height="42" rx="8" fill="#ffffff" stroke="#c7d2fe"/>
+    <text x="50" y="97" font-size="17" fill="#374151">Observer</text>
+    <rect x="28" y="124" width="326" height="42" rx="8" fill="#ffffff" stroke="#c7d2fe"/>
+    <text x="50" y="151" font-size="17" fill="#374151">Collaborator</text>
+    <rect x="28" y="178" width="326" height="42" rx="8" fill="#ffffff" stroke="#c7d2fe"/>
+    <text x="50" y="205" font-size="17" fill="#374151">Leader</text>
+  </g>
+
+  <g transform="translate(408 348)" font-family="Arial, sans-serif">
+    <path d="M0 0h120" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M96 -20l28 20-28 20" fill="none" stroke="#0f766e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(540 218)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="270" height="258" rx="8" fill="#ecfeff" stroke="#a5f3fc" stroke-width="2"/>
+    <text x="28" y="42" font-size="22" font-weight="700" fill="#0e7490">Influence style</text>
+    <rect x="28" y="70" width="214" height="42" rx="8" fill="#ffffff" stroke="#a5f3fc"/>
+    <text x="50" y="97" font-size="17" fill="#374151">Suggestive</text>
+    <rect x="28" y="124" width="214" height="42" rx="8" fill="#ffffff" stroke="#a5f3fc"/>
+    <text x="50" y="151" font-size="17" fill="#374151">Facilitative</text>
+    <rect x="28" y="178" width="214" height="42" rx="8" fill="#ffffff" stroke="#a5f3fc"/>
+    <text x="50" y="205" font-size="17" fill="#374151">Directive</text>
+  </g>
+
+  <g transform="translate(846 188)" font-family="Arial, sans-serif">
+    <rect width="220" height="318" rx="8" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="2"/>
+    <text x="26" y="44" font-size="24" font-weight="700" fill="#be185d">Five profiles</text>
+    <circle cx="42" cy="86" r="10" fill="#be185d"/>
+    <text x="66" y="93" font-size="16" fill="#374151">Skeptics</text>
+    <circle cx="42" cy="128" r="10" fill="#0e7490"/>
+    <text x="66" y="135" font-size="16" fill="#374151">Pragmatists</text>
+    <circle cx="42" cy="170" r="10" fill="#312e81"/>
+    <text x="66" y="177" font-size="16" fill="#374151">Partnership</text>
+    <circle cx="42" cy="212" r="10" fill="#b45309"/>
+    <text x="66" y="219" font-size="16" fill="#374151">Authority</text>
+    <circle cx="42" cy="254" r="10" fill="#047857"/>
+    <text x="66" y="261" font-size="16" fill="#374151">Balanced</text>
+  </g>
+
+  <g transform="translate(96 530)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="1008" height="52" rx="8" fill="#f3f4f6"/>
+    <text x="24" y="34" font-size="19" fill="#374151">Outcome: role and authority guidance for autonomous-vehicle AI teammates</text>
+  </g>
+</svg>

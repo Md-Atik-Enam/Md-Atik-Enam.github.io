@@ -404,6 +404,7 @@ html[data-theme="dark"] .portfolio-card__media {
 .case-recommendations div,
 .case-insight-grid article,
 .case-timeline div,
+.case-duration__bar,
 .case-method-grid div,
 .case-stat,
 .case-quote-grid blockquote,
@@ -435,6 +436,22 @@ html[data-theme="dark"] .portfolio-card__media {
 .case-method-grid div:nth-child(4),
 .case-insight-grid article:nth-child(4) {
   border-top-color: var(--modern-accent-4);
+}
+
+.case-duration__bar {
+  background: linear-gradient(180deg, #eef4fb, #f8fbff);
+}
+
+.case-duration__segment--irb {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+}
+
+.case-duration__segment--study {
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+}
+
+.case-duration__segment--analysis {
+  background: linear-gradient(135deg, #b45309, #f59e0b);
 }
 
 .case-stat strong,

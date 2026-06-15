@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
   <title id="title">Accessible autonomous vehicle iHMI portfolio thumbnail</title>
-  <desc id="desc">A recruiter-facing summary thumbnail for a mixed-methods human factors study of an accessible autonomous vehicle interface.</desc>
+  <desc id="desc">A summary thumbnail for a mixed-methods evaluation of an accessible autonomous vehicle interface.</desc>
   <rect width="960" height="620" fill="#f7fafc"/>
   <rect x="42" y="42" width="876" height="536" rx="28" fill="#ffffff" stroke="#d7dee8" stroke-width="2"/>
   <rect x="42" y="42" width="876" height="132" rx="28" fill="#1d4ed8"/>
   <path d="M42 146h876v32H42z" fill="#1d4ed8"/>
-  <text x="78" y="96" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Mixed-Methods Human Factors</text>
+  <text x="78" y="96" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Mixed-Methods Evaluation</text>
   <text x="78" y="137" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="20">Accessible iHMI evaluation in a real-road simulator</text>
 
   <g transform="translate(78 228)">
@@ -24,9 +24,9 @@
     <text x="88" y="56" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">participants</text>
     <text x="28" y="99" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="19">with and without disabilities</text>
     <path d="M30 135h246" stroke="#bfdbfe" stroke-width="2"/>
-    <text x="28" y="178" fill="#0f766e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">p &lt; .001</text>
-    <text x="28" y="211" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="19">higher post-ride use intent</text>
-    <text x="28" y="240" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="19">for disability group</text>
+    <text x="28" y="178" fill="#0f766e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">5.79 vs 3.35</text>
+    <text x="28" y="211" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="19">post-ride use intent</text>
+    <text x="28" y="240" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="19">disability vs non-disability</text>
   </g>
 
   <g transform="translate(78 424)">
@@ -38,6 +38,6 @@
     <text x="306" y="42" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Interviews</text>
   </g>
 
-  <text x="78" y="536" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Recruiter signal:</text>
-  <text x="260" y="536" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="22">accessibility, usability, safety, adoption</text>
+  <text x="78" y="536" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Project signal:</text>
+  <text x="260" y="536" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="22">accessibility, safety, adoption, controls</text>
 </svg>

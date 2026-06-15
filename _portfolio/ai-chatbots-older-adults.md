@@ -1,20 +1,20 @@
 ---
 title: "Inclusive AI for Older Adults"
-excerpt: "Qualitative UX research on how older adults form trust, mental models, and adoption expectations for LLM-based chatbots."
+excerpt: "Qualitative discovery on how older adults form trust, mental models, and adoption expectations for LLM-based chatbots."
 collection: portfolio
 permalink: /portfolio/inclusive-ai-older-adults/
 order: 1
 header:
   teaser: portfolio/llm-older-adults-thumb.svg
 card:
-  label: "Qualitative UX Research"
-  methods: "Contextual interviews, guided product exploration, reflexive thematic analysis"
+  label: "Qualitative Discovery"
+  methods: "Contextual interviews, guided exploration, reflexive thematic analysis"
   sample: "20 older adults, ages 59-93"
   evidence: "18+ hours of interview audio, 27-code refined codebook"
   impact: "Translated first-use AI reactions into guidance for trust, privacy, accessibility, and onboarding."
   stat: "15 of 20"
   stat_label: "saw potential for chatbot companionship with clear limits"
-  thumbnail_alt: "Thumbnail summarizing qualitative UX research with 20 older adults on LLM chatbot trust, privacy, and adoption."
+  thumbnail_alt: "Thumbnail summarizing a qualitative LLM chatbot project with 20 older adults on trust, privacy, and adoption."
   tags:
     - Trust
     - AI literacy
@@ -25,13 +25,13 @@ card:
 <div class="case-study">
   <section class="case-hero">
     <div class="case-hero__copy">
-      <p class="case-eyebrow">UX Research / Inclusive AI / PhD Research</p>
-      <p class="case-lead">I led a qualitative contextual interview study to understand how older adults make sense of LLM-based chatbots, where trust breaks down, and what product teams need to design for age-inclusive AI adoption.</p>
+      <p class="case-eyebrow">Inclusive AI / Trust / Adoption</p>
+      <p class="case-lead">I led a qualitative contextual interview project to understand how older adults make sense of LLM-based chatbots, where trust breaks down, and what teams need to design for age-inclusive AI adoption.</p>
       <div class="case-meta-grid" aria-label="Project snapshot">
-        <div><strong>Role</strong><span>First author, lead researcher</span></div>
+        <div><strong>Role</strong><span>Lead researcher</span></div>
         <div><strong>Method</strong><span>Contextual interviews + reflexive thematic analysis</span></div>
         <div><strong>Participants</strong><span>20 adults, ages 59-93</span></div>
-        <div><strong>Output</strong><span>Published in IJHCI, 2025</span></div>
+        <div><strong>Focus</strong><span>Trust, privacy, onboarding</span></div>
       </div>
     </div>
     <img class="case-hero__visual" src="/images/portfolio/llm-older-adults-case.svg" alt="Diagram of older adults interacting with an LLM chatbot and evaluating credibility, privacy, access, and usefulness.">
@@ -39,23 +39,62 @@ card:
 
   <section class="case-section case-section--tight">
     <h2>Problem</h2>
-    <p>Generative AI products are moving into everyday life, but older adults are often treated as secondary users or framed through deficit-based assumptions. For product teams, this creates a risk: AI systems may be technically powerful yet fail on onboarding, credibility, privacy, and accessibility for a major user group.</p>
-    <p>The research question was practical: after a first hands-on experience with an LLM chatbot, what makes older adults see it as useful, trustworthy, risky, or worth adopting?</p>
+    <p>Generative AI systems are moving into everyday life, but older adults are often treated as secondary users or framed through deficit-based assumptions. For teams, this creates a risk: AI systems may be technically powerful yet fail on onboarding, credibility, privacy, and accessibility for a major user group.</p>
+    <p>The core question was practical: after a first hands-on experience with an LLM chatbot, what makes older adults see it as useful, trustworthy, risky, or worth adopting?</p>
   </section>
 
   <section class="case-section">
-    <h2>Research Design</h2>
-    <div class="case-timeline" aria-label="Research process">
-      <div><strong>1. Baseline</strong><span>Captured demographics and AI literacy before the product interaction.</span></div>
+    <h2>Project Approach</h2>
+    <div class="case-timeline" aria-label="Project process">
+      <div><strong>1. Baseline</strong><span>Captured demographics and AI literacy before the chatbot interaction.</span></div>
       <div><strong>2. Guided demo</strong><span>Introduced ChatGPT 3.5 with neutral example prompts to reduce interface friction.</span></div>
       <div><strong>3. Open exploration</strong><span>Gave participants 15-25 minutes to ask their own questions and form first impressions.</span></div>
       <div><strong>4. Interview</strong><span>Ran 25-45 minute semi-structured interviews on usability, trust, health, companionship, privacy, and future uses.</span></div>
     </div>
-    <p>Across the study, we collected more than 18 hours of audio. The analysis moved from 38 initial codes to a refined 27-code codebook, then into four higher-level themes that translate directly into product strategy.</p>
+    <p>Across the project, we collected more than 18 hours of audio. The analysis moved from 38 initial codes to a refined 27-code codebook, then into four higher-level themes that translate directly into design strategy.</p>
   </section>
 
   <section class="case-section">
-    <h2>Method Choice</h2>
+    <h2>Timeline</h2>
+    <div class="case-duration" aria-label="January to March 2024 project timeline">
+      <div class="case-duration__bar">
+        <span class="case-duration__segment case-duration__segment--irb" style="--start: 0%; --width: 68%;"><strong>IRB approval</strong><em>main timeline driver</em></span>
+        <span class="case-duration__segment case-duration__segment--study" style="--start: 68%; --width: 16%;"><strong>Interviews</strong><em>~2 weeks</em></span>
+        <span class="case-duration__segment case-duration__segment--analysis" style="--start: 84%; --width: 16%;"><strong>Analysis</strong><em>~2 weeks</em></span>
+      </div>
+      <div class="case-duration__axis" aria-hidden="true">
+        <span>Jan. 2024</span>
+        <span>Feb.</span>
+        <span>Mar.</span>
+      </div>
+      <p class="case-duration__note">* Human-subjects IRB approval extended the calendar timeline; once approval was in place, interviews and analysis moved quickly.</p>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Tools</h2>
+    <div class="case-method-grid">
+      <div>
+        <h3>Interview workflow</h3>
+        <p>Used Otter.ai for transcription support and MAXQDA for coding, codebook refinement, and thematic analysis.</p>
+      </div>
+      <div>
+        <h3>Guided exploration</h3>
+        <p>Introduced participants to ChatGPT 3.5 with neutral prompts before open-ended exploration.</p>
+      </div>
+      <div>
+        <h3>Analysis structure</h3>
+        <p>Moved from 38 initial codes to a refined 27-code codebook before synthesizing themes.</p>
+      </div>
+      <div>
+        <h3>Session capture</h3>
+        <p>Collected more than 18 hours of interview audio and paired observations with participant explanations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Method Rationale</h2>
     <div class="case-method-grid">
       <div>
         <h3>Alternative: Survey</h3>
@@ -66,8 +105,8 @@ card:
         <p>A narrow usability test could have identified interface breakdowns, but the main question was broader: how older adults make sense of an unfamiliar AI system, what they trust it with, and where they see value in daily life.</p>
       </div>
       <div>
-        <h3>Alternative: Longitudinal diary study</h3>
-        <p>A diary study could show adoption over time, but it would require participants to already know enough to use the tool independently. That would bias the study away from first impressions and early onboarding barriers.</p>
+        <h3>Alternative: Longitudinal diary approach</h3>
+        <p>A diary approach could show adoption over time, but it would require participants to already know enough to use the tool independently. That would bias the project away from first impressions and early onboarding barriers.</p>
       </div>
       <div>
         <h3>Chosen: Contextual interviews</h3>
@@ -119,7 +158,7 @@ card:
   </section>
 
   <section class="case-section">
-    <h2>What This Means for Product Teams</h2>
+    <h2>What This Means for Teams</h2>
     <div class="case-recommendations">
       <div>
         <h3>Design transparent trust cues</h3>
@@ -143,10 +182,10 @@ card:
   <section class="case-section">
     <h2>Impact</h2>
     <div class="case-impact">
-      <div><strong>Research impact</strong><span>One of the early empirical studies of older adults' perceptions of LLM-based chatbots in the United States.</span></div>
-      <div><strong>Product impact</strong><span>Identified adoption blockers that map to concrete UX requirements: credibility, privacy, discoverability, and accessible interaction.</span></div>
+      <div><strong>Market signal</strong><span>Mapped first-use reactions into adoption barriers that teams can address before launch.</span></div>
+      <div><strong>Product impact</strong><span>Identified adoption blockers that map to concrete product requirements: credibility, privacy, discoverability, and accessible interaction.</span></div>
       <div><strong>Inclusive AI impact</strong><span>Showed that older adults can be primary users of LLM products when systems support their trust and interaction needs.</span></div>
     </div>
-    <p class="case-cta"><a href="https://doi.org/10.1080/10447318.2025.2476710">Read the published paper</a></p>
+    <p class="case-cta">Publication: This work was published in <em>International Journal of Human-Computer Interaction</em> in 2025. <a href="https://doi.org/10.1080/10447318.2025.2476710">View paper</a>.</p>
   </section>
 </div>

@@ -1,20 +1,20 @@
 ---
 title: "Accessible iHMI for Autonomous Vehicles"
-excerpt: "Mixed-methods human factors research on how people with and without disabilities perceive the same inclusive in-vehicle interface."
+excerpt: "Mixed-methods evaluation of how people with and without disabilities perceive the same inclusive in-vehicle interface."
 collection: portfolio
 permalink: /portfolio/accessible-autonomous-vehicle-ihmi/
 order: 2
 header:
   teaser: portfolio/accessible-av-ihmi-thumb.svg
 card:
-  label: "Mixed-Methods Human Factors"
+  label: "Mixed-Methods Evaluation"
   methods: "Real-road simulator, SCAS, SUS, post-ride interviews"
   sample: "41 participants across disability and non-disability groups"
   evidence: "Pre/post acceptance data, SUS ratings, thematic interview analysis"
   impact: "Identified where accessible iHMI features improved trust, ease of use, and future-use intent."
-  stat: "p < .001"
-  stat_label: "higher post-ride use intent for participants with disabilities"
-  thumbnail_alt: "Thumbnail summarizing a mixed-methods autonomous vehicle iHMI study with real-road simulator data and accessibility findings."
+  stat: "5.79 vs. 3.35"
+  stat_label: "post-ride use intent: disability vs. non-disability groups"
+  thumbnail_alt: "Thumbnail summarizing a mixed-methods autonomous vehicle iHMI evaluation with real-road simulator data and accessibility findings."
   tags:
     - Accessibility
     - Autonomous mobility
@@ -25,10 +25,10 @@ card:
 <div class="case-study">
   <section class="case-hero">
     <div class="case-hero__copy">
-      <p class="case-eyebrow">Human Factors / Accessibility / Automotive UX</p>
-      <p class="case-lead">I led a mixed-methods study evaluating an accessible internal human-machine interface for autonomous vehicles, focusing on how the same design supports users with disabilities while affecting users without disabilities.</p>
+      <p class="case-eyebrow">Accessible Mobility / Autonomous Vehicles / Evaluation</p>
+      <p class="case-lead">I led a mixed-methods evaluation of an accessible internal human-machine interface for autonomous vehicles, focusing on how the same design supports users with disabilities while affecting users without disabilities.</p>
       <div class="case-meta-grid" aria-label="Project snapshot">
-        <div><strong>Role</strong><span>First author, lead researcher</span></div>
+        <div><strong>Role</strong><span>Lead researcher</span></div>
         <div><strong>Method</strong><span>Real-road simulator, SCAS, SUS, interviews</span></div>
         <div><strong>Participants</strong><span>41 people across three locations</span></div>
         <div><strong>Domain</strong><span>Shared autonomous mobility</span></div>
@@ -40,12 +40,12 @@ card:
   <section class="case-section case-section--tight">
     <h2>Problem</h2>
     <p>Autonomous vehicles could expand mobility for people with disabilities, but inclusive design is not just about adding accessibility features. A feature that is essential for one group can become distracting or unnecessary for another. For shared autonomous vehicles, that tension matters because the same in-vehicle interface may serve riders with very different abilities, expectations, and risk perceptions.</p>
-    <p>The study asked whether accessible iHMI features change acceptance factors such as perceived safety, reliability, ease of use, control, and intention to use autonomous vehicles.</p>
+    <p>The project asked whether accessible iHMI features change acceptance factors such as perceived safety, reliability, ease of use, control, and intention to use autonomous vehicles.</p>
   </section>
 
   <section class="case-section">
-    <h2>Research Design</h2>
-    <div class="case-timeline" aria-label="Research process">
+    <h2>Project Approach</h2>
+    <div class="case-timeline" aria-label="Project process">
       <div><strong>1. Prototype</strong><span>Evaluated an iHMI with voice interaction, touchscreen controls, route status, landmarks, safety updates, music, phone, lighting, and temperature controls.</span></div>
       <div><strong>2. Scenario</strong><span>Participants completed a 20-25 minute real-road ride in a modified minivan using the RRADS method.</span></div>
       <div><strong>3. Measures</strong><span>Collected pre/post Self-Driving Car Acceptance Scale responses and post-ride System Usability Scale responses.</span></div>
@@ -54,10 +54,51 @@ card:
   </section>
 
   <section class="case-section">
-    <h2>Method Choice</h2>
+    <h2>Timeline</h2>
+    <div class="case-duration" aria-label="April to August 2023 project timeline">
+      <div class="case-duration__bar">
+        <span class="case-duration__segment case-duration__segment--irb" style="--start: 0%; --width: 60%;"><strong>IRB approval</strong><em>~3 months</em></span>
+        <span class="case-duration__segment case-duration__segment--study" style="--start: 60%; --width: 28%;"><strong>Setup + sessions</strong><em>~3 weeks</em></span>
+        <span class="case-duration__segment case-duration__segment--analysis" style="--start: 88%; --width: 12%;"><strong>Analysis</strong><em>~2 weeks</em></span>
+      </div>
+      <div class="case-duration__axis" aria-hidden="true">
+        <span>Apr. 2023</span>
+        <span>May</span>
+        <span>June</span>
+        <span>July</span>
+        <span>Aug.</span>
+      </div>
+      <p class="case-duration__note">* Human-subjects IRB approval extended the calendar timeline; once approval was in place, remote setup, data collection across three U.S. locations, and analysis moved quickly.</p>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Tools</h2>
     <div class="case-method-grid">
       <div>
-        <h3>Alternative: Survey-only study</h3>
+        <h3>Prototype</h3>
+        <p>Developed the iHMI prototype in TypeScript and used Llama 2 for AI-enabled interaction support.</p>
+      </div>
+      <div>
+        <h3>Quantitative workflow</h3>
+        <p>Used Qualtrics for structured measures and R for scale scoring, group comparisons, and statistical analysis.</p>
+      </div>
+      <div>
+        <h3>Qualitative workflow</h3>
+        <p>Used Otter.ai for transcription support and MAXQDA for interview coding and thematic analysis.</p>
+      </div>
+      <div>
+        <h3>Field coordination</h3>
+        <p>Coordinated the RRADS vehicle setup, tablet interface, speaker setup, and participant sessions across locations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Method Rationale</h2>
+    <div class="case-method-grid">
+      <div>
+        <h3>Alternative: Survey-only approach</h3>
         <p>A survey could compare attitudes toward autonomous vehicles, but it would not show how safety, control, voice feedback, and information load changed after an embodied ride experience.</p>
       </div>
       <div>
@@ -69,18 +110,18 @@ card:
         <p>A closed course would improve safety and consistency, but it would remove everyday route complexity and would have been harder to run with remote disability-advocacy partners.</p>
       </div>
       <div>
-        <h3>Chosen: RRADS mixed-method study</h3>
+        <h3>Chosen: RRADS mixed-method evaluation</h3>
         <p>The Real Road Autonomous Driving Simulator balanced ecological validity and safety. Pairing pre/post scales with interviews let me quantify acceptance shifts and explain why participants with and without disabilities reacted differently.</p>
       </div>
     </div>
   </section>
 
   <section class="case-section">
-    <h2>Study Artifacts</h2>
+    <h2>Project Artifacts</h2>
     <div class="case-figure-stack">
       <figure>
-        <img src="/images/portfolio/rrads-vehicle-setup.png" alt="RRADS research minivan exterior, in-vehicle partition monitor, and passenger-side tablet and speaker setup.">
-        <figcaption>RRADS vehicle setup: a modified research minivan, partition-mounted front-view monitor, and passenger-side tablet and speaker.</figcaption>
+        <img src="/images/portfolio/rrads-vehicle-setup.png" alt="RRADS minivan exterior, in-vehicle partition monitor, and passenger-side tablet and speaker setup.">
+        <figcaption>RRADS vehicle setup: a modified minivan, partition-mounted front-view monitor, and passenger-side tablet and speaker.</figcaption>
       </figure>
       <figure>
         <img src="/images/portfolio/rrads-ihmi-interface.png" alt="Internal human-machine interface screens showing vehicle status, in-vehicle settings, destination entry, and phone controls.">
@@ -133,7 +174,7 @@ card:
         <p>Time, route, and surroundings information helped riders with visual impairments orient themselves, but some riders without disabilities saw repeated auditory updates as redundant.</p>
       </article>
       <article>
-        <span class="case-tag case-tag--blue">Voice UX</span>
+        <span class="case-tag case-tag--blue">Voice interaction</span>
         <h3>Voice interaction increased access, but responsiveness and pacing shaped confidence.</h3>
         <p>Most participants liked voice control. Desired improvements included better recognition, slower pacing when needed, interruptibility, and options for voice style or pitch.</p>
       </article>
@@ -170,7 +211,7 @@ card:
   <section class="case-section">
     <h2>Impact</h2>
     <div class="case-impact">
-      <div><strong>Human factors impact</strong><span>Converted a complex real-road AV simulation into evidence about trust, control, safety, and information load.</span></div>
+      <div><strong>Evaluation impact</strong><span>Converted a complex real-road AV simulation into evidence about trust, control, safety, and information load.</span></div>
       <div><strong>Accessibility impact</strong><span>Showed why accessible features must be evaluated with both disabled and non-disabled users in shared mobility contexts.</span></div>
       <div><strong>Product impact</strong><span>Produced design guidance for adaptive iHMI systems that can support independence without creating unnecessary friction.</span></div>
     </div>

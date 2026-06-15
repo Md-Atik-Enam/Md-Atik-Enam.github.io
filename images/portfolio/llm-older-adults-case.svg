@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Inclusive AI research case study visual</title>
-  <desc id="desc">A research workflow showing older adults, an LLM chatbot, trust signals, privacy concerns, and multimodal access needs.</desc>
+  <title id="title">Inclusive AI case study visual</title>
+  <desc id="desc">A workflow showing older adults, an LLM chatbot, trust signals, privacy concerns, and multimodal access needs.</desc>
   <rect width="1200" height="675" fill="#f7faf8"/>
   <rect x="56" y="54" width="1088" height="567" rx="8" fill="#ffffff" stroke="#d7e4df" stroke-width="3"/>
-  <text x="94" y="118" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Inclusive AI adoption research</text>
+  <text x="94" y="118" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Inclusive AI adoption insights</text>
   <text x="94" y="158" font-family="Arial, sans-serif" font-size="21" fill="#4b5563">20 contextual interviews with older adults using an LLM chatbot</text>
 
   <g transform="translate(94 218)">
@@ -48,6 +48,6 @@
 
   <g transform="translate(94 518)" font-family="Arial, sans-serif">
     <rect x="0" y="0" width="1012" height="52" rx="8" fill="#f3f4f6"/>
-    <text x="24" y="34" font-size="19" fill="#374151">Outcome: design guidance for trustworthy, age-inclusive AI products</text>
+    <text x="24" y="34" font-size="19" fill="#374151">Outcome: design guidance for trustworthy, age-inclusive AI systems</text>
   </g>
 </svg>

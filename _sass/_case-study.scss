@@ -432,6 +432,83 @@ html[data-theme="dark"] .portfolio-card__stat {
   border-top: 4px solid var(--case-teal);
 }
 
+.case-duration {
+  margin: 0 0 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+}
+
+.case-duration__bar {
+  position: relative;
+  min-width: 680px;
+  height: 5rem;
+  border: 1px solid var(--case-line);
+  border-radius: 8px;
+  background: #f3f4f6;
+  overflow: hidden;
+}
+
+.case-duration__segment {
+  position: absolute;
+  inset-block: 0;
+  left: var(--start);
+  width: var(--width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.15rem;
+  padding: 0.85rem 0.95rem;
+  border-right: 2px solid rgba(255, 255, 255, 0.86);
+  color: #ffffff;
+}
+
+.case-duration__segment strong,
+.case-duration__segment em {
+  display: block;
+  color: #ffffff;
+  line-height: 1.25;
+}
+
+.case-duration__segment strong {
+  font-size: 0.92rem;
+}
+
+.case-duration__segment em {
+  font-size: 0.78rem;
+  font-style: normal;
+  opacity: 0.92;
+}
+
+.case-duration__segment--irb {
+  background: #1d4ed8;
+}
+
+.case-duration__segment--study {
+  background: #0f766e;
+}
+
+.case-duration__segment--analysis {
+  background: #b45309;
+}
+
+.case-duration__axis {
+  min-width: 680px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.45rem;
+  color: var(--case-muted);
+  font-size: 0.78rem;
+}
+
+.case-duration__note {
+  min-width: 680px;
+  margin: 0.6rem 0 0;
+  color: var(--case-muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
 .case-insight-grid,
 .case-recommendations,
 .case-impact,
