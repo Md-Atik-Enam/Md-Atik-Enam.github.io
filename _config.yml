@@ -12,8 +12,8 @@ site_theme               : "default"
 title                    : "Md Atik Enam"
 title_separator          : "-"
 name                     : &name "Md Atik Enam"
-description              : &description "personal description"
-url                      : https://Md-Atik-Enam.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+description              : &description "Human-centered computing researcher studying accessible mobility, human-AI interaction, and inclusive technology design."
+url                      : https://md-atik-enam.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
 
@@ -22,10 +22,10 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "faceProfile.jpg"
+  avatar           : "headshot-web.jpg"
   name             : "Md Atik Enam"
   pronouns         : # example: "she/her"  
-  bio              : "Human-Centered Computing Ph.D. Candidate"
+  bio              : "Human-Centered Computing Ph.D. Candidate studying accessible mobility and human-AI interaction"
   location         : "Clemson, SC, USA"
   employer         : "Clemson University"
   uri              : # URL

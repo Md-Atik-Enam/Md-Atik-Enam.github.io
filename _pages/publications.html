@@ -5,38 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h2>Publications</h2>
+{% include base_path %}
+{% assign published_publications = site.publications | where: "status", "published" | sort: "sort_order" %}
 
-{% if site.author.googlescholar %}
-<p>You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>.</p>
-{% endif %}
+<section class="publication-page-intro">
+  <p class="home-eyebrow">Published Work</p>
+  <h2>Peer-reviewed publications</h2>
+  {% if site.author.googlescholar %}
+    <p><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a> contains the broader citation record.</p>
+  {% endif %}
+</section>
 
-<h3>Journal Articles</h3>
-{% assign journal_papers = site.publications | where: "category", "journal" | reverse %}
-{% for post in journal_papers %}
-    <p>
-        <strong>[J{{ forloop.index }}]</strong> {{ post.title }}, {{ post.authors }}, 
-        <em>{{ post.venue }}</em>, {{ post.year }}.
-        {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
-    </p>
-{% endfor %}
-
-<h3>Conference Papers</h3>
-{% assign conference_papers = site.publications | where: "category", "conference" | reverse %}
-{% for post in conference_papers %}
-    <p>
-        <strong>[C{{ forloop.index }}]</strong> {{ post.title }}, {{ post.authors }}, 
-        <em>{{ post.venue }}</em>, {{ post.year }}.
-        {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
-    </p>
-{% endfor %}
-
-<h3>Workshop Papers</h3>
-{% assign workshop_papers = site.publications | where: "category", "workshop" | reverse %}
-{% for post in workshop_papers %}
-    <p>
-        <strong>[W{{ forloop.index }}]</strong> {{ post.title }}, {{ post.authors }}, 
-        <em>{{ post.venue }}</em>, {{ post.year }}.
-        {% if post.link %}<a href="{{ post.link }}" target="_blank">🔗 Link</a>{% endif %}
-    </p>
-{% endfor %}
+<div class="publication-grid publication-grid--archive">
+  {% for post in published_publications %}
+    {% include publication-card.html %}
+  {% endfor %}
+</div>

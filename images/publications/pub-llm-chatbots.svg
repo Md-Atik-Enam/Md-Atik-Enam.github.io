@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Older adults and LLM chatbot research thumbnail</title>
+  <desc id="desc">Generated diagram of a conversation interface, older adult participant nodes, and privacy signals.</desc>
+  <rect width="640" height="400" fill="#f6f8fb"/>
+  <rect x="58" y="44" width="524" height="312" rx="18" fill="#ffffff" stroke="#d6e2ea" stroke-width="3"/>
+  <rect x="106" y="84" width="250" height="232" rx="18" fill="#edf6f3"/>
+  <rect x="384" y="84" width="150" height="232" rx="18" fill="#eef3f8"/>
+  <g fill="#0f766e">
+    <circle cx="160" cy="148" r="28"/>
+    <path d="M114 214c10-39 82-39 92 0z"/>
+    <circle cx="304" cy="230" r="24"/>
+    <path d="M264 288c8-34 72-34 80 0z"/>
+  </g>
+  <g fill="#ffffff" stroke="#315a7d" stroke-width="4">
+    <rect x="226" y="122" width="94" height="42" rx="14"/>
+    <rect x="136" y="244" width="96" height="42" rx="14"/>
+  </g>
+  <path d="M402 134h112M402 176h78M402 218h96" stroke="#315a7d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M454 254a24 24 0 1 0 48 0 24 24 0 0 0-48 0zm24-31v-17" fill="none" stroke="#b7791f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M118 326h404" stroke="#d6e2ea" stroke-width="4" stroke-linecap="round"/>
+</svg>

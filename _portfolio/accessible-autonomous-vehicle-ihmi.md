@@ -4,6 +4,7 @@ excerpt: "Mixed-methods evaluation of how people with and without disabilities p
 collection: portfolio
 permalink: /portfolio/accessible-autonomous-vehicle-ihmi/
 order: 2
+author: atik
 header:
   teaser: portfolio/accessible-av-ihmi-thumb.svg
 card:
@@ -12,8 +13,8 @@ card:
   sample: "41 participants across disability and non-disability groups"
   evidence: "Pre/post acceptance data, SUS ratings, thematic interview analysis"
   impact: "Identified where accessible iHMI features improved trust, ease of use, and future-use intent."
-  stat: "5.79 vs. 3.35"
-  stat_label: "post-ride use intent: disability vs. non-disability groups"
+  stat: "41"
+  stat_label: "participants across three U.S. real-road simulation sites"
   thumbnail_alt: "Thumbnail summarizing a mixed-methods autonomous vehicle iHMI evaluation with real-road simulator data and accessibility findings."
   tags:
     - Accessibility

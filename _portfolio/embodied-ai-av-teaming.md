@@ -4,6 +4,7 @@ excerpt: "Quantitative experiment on how passengers interpret AI teammate roles 
 collection: portfolio
 permalink: /portfolio/embodied-ai-av-teaming/
 order: 3
+author: atik
 header:
   teaser: portfolio/eai-teaming-thumb.svg
 card:
@@ -12,8 +13,8 @@ card:
   sample: "498 valid Prolific responses"
   evidence: "Qualtrics survey data, reliability checks, ANOVA, five-profile model"
   impact: "Revealed distinct response profiles that can guide AI teammate role and authority decisions in AV interfaces."
-  stat: "5 profiles"
-  stat_label: "identified from 498 valid responses"
+  stat: "498"
+  stat_label: "valid survey responses after a 10-person pilot"
   thumbnail_alt: "Thumbnail summarizing a quantitative autonomous-vehicle AI teammate experiment with 498 valid responses and five latent profiles."
   tags:
     - Autonomous vehicles

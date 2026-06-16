@@ -151,7 +151,7 @@ td > code {
   color: var(--global-code-text-color);
 
   &:before, &:after {
-    letter-spacing: -0.2em;
+    letter-spacing: 0;
     content: "\00a0"; /* non-breaking space*/
   }
 }

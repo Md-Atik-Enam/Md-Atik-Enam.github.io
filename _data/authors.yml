@@ -1,5 +1,15 @@
 # Authors
 
+atik:
+  name        : "Md Atik Enam"
+  email       : "menam@clemson.edu"
+  bio         : "Human-Centered Computing Ph.D. Candidate studying accessible mobility and human-AI interaction"
+  avatar      : "headshot-web.jpg"
+  location    : "Clemson, SC, USA"
+  employer    : "Clemson University"
+  googlescholar: "https://scholar.google.com/citations?user=-ffvPaYAAAAJ&hl=en&oi=ao"
+  researchgate: "https://www.researchgate.net/profile/Md-Atik-Enam"
+
 Name Name:
   name        : "Name Name"
   uri         : "http://name.com"

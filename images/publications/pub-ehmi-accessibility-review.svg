@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">External HMI accessibility review thumbnail</title>
+  <desc id="desc">Generated diagram of an autonomous vehicle communicating with pedestrians with different accessibility needs.</desc>
+  <rect width="640" height="400" fill="#f7fafc"/>
+  <rect x="44" y="46" width="552" height="308" rx="18" fill="#ffffff" stroke="#d6e2ea" stroke-width="3"/>
+  <path d="M118 242h184l30-54h134l48 54h42v48H118z" fill="#edf3f8" stroke="#315a7d" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="196" cy="292" r="26" fill="#203040"/>
+  <circle cx="476" cy="292" r="26" fill="#203040"/>
+  <path d="M184 198h104M346 198h84" stroke="#0f766e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M112 142c64-46 136-46 216 0M312 142c68-46 140-46 216 0" fill="none" stroke="#b7791f" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#0f766e">
+    <circle cx="142" cy="166" r="16"/>
+    <path d="M134 186h24v50h-18z"/>
+    <circle cx="516" cy="166" r="16"/>
+    <path d="M508 186h24v50h-18z"/>
+  </g>
+  <path d="M496 218c-24 0-43 19-43 43s19 43 43 43c18 0 34-11 40-27h-20c-5 6-12 9-20 9-14 0-25-11-25-25s11-25 25-25z" fill="#315a7d"/>
+</svg>

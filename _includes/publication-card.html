@@ -1,0 +1,55 @@
+{% assign publication_image = post.image | default: post.thumbnail %}
+{% assign primary_url = post.link | default: post.url %}
+{% assign primary_label = "Paper" %}
+{% if primary_url contains ".pdf" %}
+  {% assign primary_label = "PDF" %}
+{% endif %}
+
+<article class="publication-card">
+  <a class="publication-card__image" href="{% if primary_url contains '://' %}{{ primary_url }}{% else %}{{ primary_url | relative_url }}{% endif %}" aria-label="Open {{ post.title | escape }}">
+    {% if publication_image %}
+      <img src="{% if publication_image contains '://' %}{{ publication_image }}{% else %}{{ publication_image | prepend: '/images/' | relative_url }}{% endif %}" alt="{{ post.image_alt | default: post.title | escape }}">
+    {% else %}
+      <span>{{ post.pub_id | default: "Paper" }}</span>
+    {% endif %}
+  </a>
+
+  <div class="publication-card__body">
+    <div class="publication-card__meta">
+      {% if post.pub_id %}<span>{{ post.pub_id }}</span>{% endif %}
+      <span>{{ post.publication_type | default: post.category | capitalize }}</span>
+      <span>{{ post.year }}</span>
+    </div>
+
+    <h3 class="publication-card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="publication-card__authors">{{ post.authors }}</p>
+    <p class="publication-card__venue"><em>{{ post.venue }}</em>{% if post.pages %}, {{ post.pages }}{% endif %}.</p>
+    {% if post.summary %}
+      <p class="publication-card__summary">{{ post.summary }}</p>
+    {% endif %}
+
+    <div class="publication-card__links">
+      {% if primary_url %}
+        <a href="{{ primary_url }}" target="_blank" rel="noopener">{{ primary_label }}</a>
+      {% endif %}
+      {% if post.pdf_url and post.pdf_url != primary_url %}
+        <a href="{{ post.pdf_url }}" target="_blank" rel="noopener">PDF</a>
+      {% endif %}
+      {% if post.doi %}
+        <a href="https://doi.org/{{ post.doi }}" target="_blank" rel="noopener">DOI</a>
+      {% endif %}
+    </div>
+
+    {% if post.citation or post.bibtex %}
+      <details class="publication-card__cite">
+        <summary>Cite</summary>
+        {% if post.citation %}
+          <p>{{ post.citation }}</p>
+        {% endif %}
+        {% if post.bibtex %}
+          <pre><code>{{ post.bibtex | escape }}</code></pre>
+        {% endif %}
+      </details>
+    {% endif %}
+  </div>
+</article>

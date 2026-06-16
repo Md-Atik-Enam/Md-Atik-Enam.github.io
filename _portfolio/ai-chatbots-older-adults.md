@@ -4,6 +4,7 @@ excerpt: "Qualitative discovery on how older adults form trust, mental models, a
 collection: portfolio
 permalink: /portfolio/inclusive-ai-older-adults/
 order: 1
+author: atik
 header:
   teaser: portfolio/llm-older-adults-thumb.svg
 card:
@@ -12,8 +13,8 @@ card:
   sample: "20 older adults, ages 59-93"
   evidence: "18+ hours of interview audio, 27-code refined codebook"
   impact: "Translated first-use AI reactions into guidance for trust, privacy, accessibility, and onboarding."
-  stat: "15 of 20"
-  stat_label: "saw potential for chatbot companionship with clear limits"
+  stat: "20"
+  stat_label: "older-adult contextual interviews, ages 59-93"
   thumbnail_alt: "Thumbnail summarizing a qualitative LLM chatbot project with 20 older adults on trust, privacy, and adoption."
   tags:
     - Trust
