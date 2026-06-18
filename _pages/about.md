@@ -22,15 +22,15 @@ redirect_from:
         <span>Expected Fall 2026, Clemson University</span>
         <span>B.S. and M.S. in Computer Science</span>
         <span>DRIVE Lab, CU-ICAR</span>
-        <span>Accessible mobility and human-embodied AI teaming</span>
+        <span>Accessible mobility and human-AI teaming with embodied systems</span>
       </div>
     </div>
 
     <div class="home-hero__copy">
       <p class="home-eyebrow">Human-Centered Computing Researcher</p>
       <h1>Md Atik Enam</h1>
-      <p class="home-lead">I design and study accessible, trustworthy human-embodied AI teaming for mobility, aging, and learning.</p>
-      <p>I am a Human-Centered Computing researcher and Graduate Research Assistant in the DRIVE Lab at CU-ICAR. My work connects human factors, automotive systems, artificial intelligence, accessibility, and HCI methods to study how emerging technologies can better serve people with diverse needs. I am also passionate about improving computer science learning as AI reshapes how students learn, build, and reason about software.</p>
+      <p class="home-lead">I design and study accessible, trustworthy human-AI teaming with embodied systems for mobility, aging, and learning.</p>
+      <p>I am a Human-Centered Computing researcher and Graduate Research Assistant in the DRIVE Lab at CU-ICAR. My work connects human factors, automotive systems, artificial intelligence, accessibility, and HCI methods to study how emerging technologies can better serve people with diverse needs. Much of this work has been grounded in in-vehicle interfaces, intelligent transportation systems, and autonomous vehicle contexts, where I have studied how people interact with increasingly capable AI-driven technologies in real-world settings. These experiences inform my broader research agenda on designing AI systems that are accessible, trustworthy, and effective across domains.</p>
       <a class="home-email-link" href="mailto:menam@clemson.edu">menam@clemson.edu</a>
       <div class="home-actions" aria-label="Primary links">
         <a class="home-button home-button--primary" href="#publications">Publications</a>
@@ -64,8 +64,8 @@ redirect_from:
   <section id="research" class="home-section">
     <div class="section-heading">
       <p class="home-eyebrow">Research Vision</p>
-      <h2>Adaptive human-embodied AI teaming.</h2>
-      <p>My research vision is to help embodied AI systems understand human variability, adapt collaboration strategies, and support shared decision-making with people in real-world contexts. Autonomous vehicles are my primary testbed because they make the stakes visible: people and AI must negotiate authority, exchange timely information, and act safely in dynamic environments. The broader goal is to move beyond one-size-fits-all AI toward systems that can support accessible mobility, older adults, disabled users, and teams operating under changing demands.</p>
+      <h2>Adaptive human-AI teaming with embodied systems.</h2>
+      <p>My research vision is to help embodied AI systems understand human variability, adapt collaboration strategies, and support shared decision-making with people in real-world contexts. Autonomous vehicles are my primary testbed because they make the stakes visible: people and AI must negotiate authority, exchange timely information, and act safely in dynamic environments. The broader goal is to move beyond one-size-fits-all AI toward systems that can support accessible mobility, older adults, people with disabilities, and teams operating under changing demands.</p>
     </div>
 
     <div class="research-grid">
@@ -153,12 +153,12 @@ redirect_from:
         <p class="home-eyebrow">Teaching</p>
         <h2>Courses and guest lectures</h2>
       </div>
-      <p>I have taught, assisted, or contributed course materials across HCI, software engineering, algorithms, systems, and security.</p>
+      <p>I have taught, assisted with, or contributed course materials for courses across HCI, software engineering, algorithms, systems, and security.</p>
     </div>
 
     <div class="teaching-grid">
       <article>
-        <h3>Instructor and Teaching Assistant Courses</h3>
+        <h3>Courses as Instructor or Teaching Assistant</h3>
         <ul>
           <li>CPSC 2121: Algorithms and Data Structures Lab</li>
           <li>CPSC 4140/6140: Introduction to Human-Computer Interaction</li>
@@ -199,7 +199,7 @@ redirect_from:
       <div>
         <h3>Program Committee</h3>
         <ul>
-          <li>ACM Technical Symposium on Computer Science Education Research (SIGCSE TS), 2026</li>
+          <li>ACM Technical Symposium on Computer Science Education (SIGCSE TS), 2026</li>
         </ul>
       </div>
       <div>
