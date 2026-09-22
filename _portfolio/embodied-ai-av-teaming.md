@@ -1,6 +1,6 @@
 ---
-title: "Embodied AI Roles in Autonomous Vehicles"
-excerpt: "Quantitative experiment on how passengers interpret AI teammate roles and influence styles in autonomous-vehicle interfaces."
+title: "How People Interpret AI Roles and Authority"
+excerpt: "Survey experiment on how people interpret AI roles, communication styles, trust, and decision authority."
 collection: portfolio
 permalink: /portfolio/embodied-ai-av-teaming/
 order: 3
@@ -8,11 +8,12 @@ author: atik
 header:
   teaser: portfolio/eai-teaming-thumb.svg
 card:
-  label: "Quantitative Experiment"
+  label: "AI Interaction Experiment"
   methods: "3 x 3 between-subject experiment, ANOVA, latent profile analysis"
   sample: "498 valid Prolific responses"
   evidence: "Qualtrics survey data, reliability checks, ANOVA, five-profile model"
-  impact: "Revealed distinct response profiles that can guide AI teammate role and authority decisions in AV interfaces."
+  impact: "Produced guidance for communicating AI roles, authority, and control in interactive systems."
+  status: "Dissertation research; manuscript under review"
   stat: "498"
   stat_label: "valid survey responses after a 10-person pilot"
   thumbnail_alt: "Thumbnail summarizing a quantitative autonomous-vehicle AI teammate experiment with 498 valid responses and five latent profiles."
@@ -26,13 +27,13 @@ card:
 <div class="case-study">
   <section class="case-hero">
     <div class="case-hero__copy">
-      <p class="case-eyebrow">Autonomous Vehicles / Embodied AI / Quantitative Experiment</p>
-      <p class="case-lead">I designed and analyzed a 3 x 3 between-subject online experiment to test how AI teammate role and communication influence style shape trust, personification, personalization, and perceived authority in autonomous-vehicle HMIs.</p>
+      <p class="case-eyebrow">Human-AI Interaction / Trust / Decision Authority</p>
+      <p class="case-lead">I designed and analyzed a 3 x 3 online experiment to test how AI roles and communication styles affect trust, personalization, and perceived decision authority.</p>
       <div class="case-meta-grid" aria-label="Project snapshot">
         <div><strong>Role</strong><span>Lead researcher</span></div>
         <div><strong>Method</strong><span>Survey experiment + latent profile analysis</span></div>
         <div><strong>Participants</strong><span>498 valid responses</span></div>
-        <div><strong>Tools</strong><span>Qualtrics, Prolific, R, TypeScript</span></div>
+        <div><strong>Status</strong><span>Dissertation research; manuscript under review</span></div>
       </div>
     </div>
     <img class="case-hero__visual" src="/images/portfolio/eai-teaming-case.svg" alt="Diagram of a 3 by 3 autonomous vehicle AI teammate experiment and five latent response profiles.">
@@ -227,11 +228,12 @@ card:
   </section>
 
   <section class="case-section">
-    <h2>Impact</h2>
+    <h2>Outcomes</h2>
     <div class="case-impact">
-      <div><strong>Quantitative impact</strong><span>Moved beyond mean comparisons by using latent profile analysis to identify distinct response groups.</span></div>
-      <div><strong>Design impact</strong><span>Showed why AV interfaces may need different AI role and authority strategies for different passenger profiles.</span></div>
-      <div><strong>Product impact</strong><span>Translated complex statistical results into actionable guidance for AI teammate behavior, control, and communication.</span></div>
+      <div><strong>Analysis outcome</strong><span>Used latent profile analysis to identify response groups that average comparisons did not show.</span></div>
+      <div><strong>Design finding</strong><span>Showed why interfaces may need different AI role and authority strategies for different users.</span></div>
+      <div><strong>Product relevance</strong><span>Turned statistical results into guidance for AI behavior, user control, and communication.</span></div>
     </div>
+    <p class="case-cta"><strong>Broader relevance:</strong> Although the study uses autonomous vehicles, the questions about AI roles, trust, authority, and control also apply to copilots, assistants, and decision-support tools.</p>
   </section>
 </div>

@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 title: "Md Atik Enam"
-excerpt: "Human-centered computing researcher studying human-AI relationships and human–autonomy teaming in autonomous mobility, with a secondary focus on accessibility."
+excerpt: "Human-centered computing researcher studying how people understand, trust, and work with AI, with a focus on autonomous mobility and accessibility."
 author_profile: false
 redirect_from:
   - /about/
@@ -22,15 +22,15 @@ redirect_from:
         <span>Expected Fall 2026, Clemson University</span>
         <span>B.S. and M.S. in Computer Science</span>
         <span>DRIVE Lab, CU-ICAR</span>
-        <span>Human–AI interaction and accessible autonomy in mobility</span>
+        <span>Human-AI interaction, human-autonomy teaming, and accessible mobility</span>
       </div>
     </div>
 
     <div class="home-hero__copy">
       <p class="home-eyebrow">Human-Centered Computing Researcher</p>
       <h1>Md Atik Enam</h1>
-      <p class="home-lead">I study how people understand, trust, and coordinate with AI in autonomous vehicles—and translate those findings into accessible, evidence-driven interaction design.</p>
-      <p>I am a Human-Centered Computing researcher and Graduate Research Assistant in the DRIVE Lab at CU-ICAR. My dissertation, <em>Understanding Human-AI Relationships in Autonomous Vehicles</em>, examines how people recognize AI roles, negotiate authority, evaluate interaction quality, and make decisions with increasingly capable in-vehicle AI. Within this primary agenda, I also study how autonomous mobility can better support people with disabilities. I combine qualitative and quantitative user research, scale development, field studies, and interface evaluation to produce insights for HCI, human factors, UX research, and the design of trustworthy autonomous systems.</p>
+      <p class="home-lead">I study how people understand, trust, and work with AI. I use autonomous vehicles as my main research setting and apply the findings to accessible, evidence-based interaction design.</p>
+      <p>I am a Human-Centered Computing researcher and Graduate Research Assistant in the DRIVE Lab at CU-ICAR. My dissertation, <em>Understanding Human-AI Relationships in Autonomous Vehicles</em>, examines how people understand AI roles, share decision authority, judge interaction quality, and make decisions with AI. I also study how autonomous mobility can better support people with disabilities. I use interviews, surveys, experiments, field studies, scale development, and interface evaluation. These methods and research questions apply to HCI, human factors, UX research, and AI products beyond transportation.</p>
       <a class="home-email-link" href="mailto:menam@clemson.edu">menam@clemson.edu</a>
       <div class="home-actions" aria-label="Primary links">
         <a class="home-button home-button--primary" href="#publications">Publications</a>
@@ -38,7 +38,7 @@ redirect_from:
       </div>
       <div class="home-role-note" aria-label="Open to research roles">
         <strong>Open to research roles</strong>
-        <span>Seeking faculty, postdoctoral, UX research, and industry research opportunities where rigorous human-centered research can shape trustworthy, accessible autonomous systems.</span>
+        <span>Seeking faculty, postdoctoral, UX research, and industry research opportunities where human-centered research can improve useful, trustworthy, and accessible AI products and services.</span>
       </div>
     </div>
 
@@ -64,13 +64,13 @@ redirect_from:
   <section id="research" class="home-section">
     <div class="section-heading">
       <p class="home-eyebrow">Research Vision</p>
-      <h2>Human–AI relationships in autonomous mobility.</h2>
-      <p>My primary research agenda investigates human–AI relationships in autonomous vehicles: how people interpret an AI system’s role, understand its authority, evaluate the quality of an interaction, and coordinate decisions with it. I use autonomous mobility as a consequential real-world setting for advancing human–autonomy teaming and interaction design. A connected secondary strand examines accessibility—especially how autonomous vehicles and ridesharing systems can support blind and low-vision travelers and other people with disabilities.</p>
+      <h2>Human-AI interaction in autonomous mobility.</h2>
+      <p>My main research area is human-AI interaction in autonomous vehicles. I study how people understand an AI system's role, respond to its authority, judge the quality of an interaction, and make decisions with it. Autonomous mobility gives me a real-world setting for studying human-autonomy teaming and interface design. A related part of my work focuses on accessibility, including how autonomous vehicles and ridesharing services can support blind and low-vision travelers and other people with disabilities.</p>
     </div>
 
     <div class="research-grid">
       <article>
-        <h3>Human–AI Relationships</h3>
+        <h3>Human-AI Relationships</h3>
         <p>Understanding how people recognize AI roles, form expectations, calibrate trust, and evaluate interaction quality in autonomous vehicles.</p>
       </article>
       <article>

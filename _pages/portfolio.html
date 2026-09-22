@@ -10,13 +10,13 @@ author: atik
 
 <section class="portfolio-overview" aria-label="Portfolio overview">
   <div>
-    <p class="portfolio-intro">Selected projects showing how I move from ambiguous problems to evidence, user insight, and actionable recommendations. I focus on the problem that needs to be addressed first, then choose the method: I am comfortable moving from advanced statistical analysis to interviews, focus groups, participatory design, and user enactment studies.</p>
+    <p class="portfolio-intro">These projects show how I plan research, collect and analyze data, and turn findings into clear design and product recommendations. I choose methods based on the research question. My work includes interviews, usability studies, survey experiments, field studies, and statistical analysis. Some projects are part of my dissertation and are clearly labeled as ongoing research.</p>
   </div>
   <div class="portfolio-quick-facts" aria-label="Project strengths">
-    <span>Problem framing</span>
-    <span>Advanced statistics</span>
-    <span>Qualitative depth</span>
-    <span>Evidence to action</span>
+    <span>Research planning</span>
+    <span>Mixed methods</span>
+    <span>Accessibility</span>
+    <span>Product recommendations</span>
   </div>
 </section>
 
@@ -51,13 +51,19 @@ author: atik
           <dd>{{ card.sample | escape }}</dd>
         </div>
         <div>
-          <dt>Evidence</dt>
+          <dt>Data and analysis</dt>
           <dd>{{ card.evidence | escape }}</dd>
         </div>
         <div>
-          <dt>Impact</dt>
+          <dt>Outcome</dt>
           <dd>{{ card.impact | escape }}</dd>
         </div>
+        {% if card.status %}
+        <div>
+          <dt>Status</dt>
+          <dd>{{ card.status | escape }}</dd>
+        </div>
+        {% endif %}
       </dl>
 
       <div class="portfolio-card__tags" aria-label="Project themes">

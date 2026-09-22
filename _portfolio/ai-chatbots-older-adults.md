@@ -1,6 +1,6 @@
 ---
-title: "Inclusive AI for Older Adults"
-excerpt: "Qualitative discovery on how older adults form trust, mental models, and adoption expectations for LLM-based chatbots."
+title: "How Older Adults Evaluate AI Chatbots"
+excerpt: "Interview study of how older adults judge the usefulness, trust, privacy, and accessibility of AI chatbots."
 collection: portfolio
 permalink: /portfolio/inclusive-ai-older-adults/
 order: 1
@@ -8,11 +8,12 @@ author: atik
 header:
   teaser: portfolio/llm-older-adults-thumb.svg
 card:
-  label: "Qualitative Discovery"
+  label: "Generative AI User Research"
   methods: "Contextual interviews, guided exploration, reflexive thematic analysis"
   sample: "20 older adults, ages 59-93"
   evidence: "18+ hours of interview audio, 27-code refined codebook"
-  impact: "Translated first-use AI reactions into guidance for trust, privacy, accessibility, and onboarding."
+  impact: "Produced product recommendations for trust, privacy, accessibility, and onboarding."
+  status: "Published in the International Journal of Human-Computer Interaction"
   stat: "20"
   stat_label: "older-adult contextual interviews, ages 59-93"
   thumbnail_alt: "Thumbnail summarizing a qualitative LLM chatbot project with 20 older adults on trust, privacy, and adoption."
@@ -26,8 +27,8 @@ card:
 <div class="case-study">
   <section class="case-hero">
     <div class="case-hero__copy">
-      <p class="case-eyebrow">Inclusive AI / Trust / Adoption</p>
-      <p class="case-lead">I led a qualitative contextual interview project to understand how older adults make sense of LLM-based chatbots, where trust breaks down, and what teams need to design for age-inclusive AI adoption.</p>
+      <p class="case-eyebrow">Generative AI / Trust / Accessibility</p>
+      <p class="case-lead">I led an interview study to understand how older adults use AI chatbots, what builds or reduces trust, and what product teams can do to support them.</p>
       <div class="case-meta-grid" aria-label="Project snapshot">
         <div><strong>Role</strong><span>Lead researcher</span></div>
         <div><strong>Method</strong><span>Contextual interviews + reflexive thematic analysis</span></div>
@@ -181,11 +182,11 @@ card:
   </section>
 
   <section class="case-section">
-    <h2>Impact</h2>
+    <h2>Outcomes</h2>
     <div class="case-impact">
-      <div><strong>Market signal</strong><span>Mapped first-use reactions into adoption barriers that teams can address before launch.</span></div>
-      <div><strong>Product impact</strong><span>Identified adoption blockers that map to concrete product requirements: credibility, privacy, discoverability, and accessible interaction.</span></div>
-      <div><strong>Inclusive AI impact</strong><span>Showed that older adults can be primary users of LLM products when systems support their trust and interaction needs.</span></div>
+      <div><strong>Research outcome</strong><span>Identified barriers that affected trust and willingness to use the chatbot.</span></div>
+      <div><strong>Product relevance</strong><span>Connected credibility, privacy, discoverability, and accessible interaction to clear product requirements.</span></div>
+      <div><strong>Accessibility finding</strong><span>Showed that older adults can be regular users of AI products when the design supports their needs.</span></div>
     </div>
     <p class="case-cta">Publication: This work was published in <em>International Journal of Human-Computer Interaction</em> in 2025. <a href="https://doi.org/10.1080/10447318.2025.2476710">View paper</a>.</p>
   </section>

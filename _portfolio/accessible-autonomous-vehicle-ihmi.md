@@ -1,6 +1,6 @@
 ---
-title: "Accessible iHMI for Autonomous Vehicles"
-excerpt: "Mixed-methods evaluation of how people with and without disabilities perceive the same inclusive in-vehicle interface."
+title: "Evaluating an Accessible In-Vehicle Interface"
+excerpt: "Mixed-methods study of how people with and without disabilities use and evaluate the same in-vehicle interface."
 collection: portfolio
 permalink: /portfolio/accessible-autonomous-vehicle-ihmi/
 order: 2
@@ -8,11 +8,12 @@ author: atik
 header:
   teaser: portfolio/accessible-av-ihmi-thumb.svg
 card:
-  label: "Mixed-Methods Evaluation"
+  label: "Usability and Accessibility Study"
   methods: "Real-road simulator, SCAS, SUS, post-ride interviews"
   sample: "41 participants across disability and non-disability groups"
   evidence: "Pre/post acceptance data, SUS ratings, thematic interview analysis"
-  impact: "Identified where accessible iHMI features improved trust, ease of use, and future-use intent."
+  impact: "Produced design recommendations for information level, voice interaction, safety feedback, and user control."
+  status: "Dissertation research; manuscript under review"
   stat: "41"
   stat_label: "participants across three U.S. real-road simulation sites"
   thumbnail_alt: "Thumbnail summarizing a mixed-methods autonomous vehicle iHMI evaluation with real-road simulator data and accessibility findings."
@@ -26,13 +27,13 @@ card:
 <div class="case-study">
   <section class="case-hero">
     <div class="case-hero__copy">
-      <p class="case-eyebrow">Accessible Mobility / Autonomous Vehicles / Evaluation</p>
-      <p class="case-lead">I led a mixed-methods evaluation of an accessible internal human-machine interface for autonomous vehicles, focusing on how the same design supports users with disabilities while affecting users without disabilities.</p>
+      <p class="case-eyebrow">Accessibility / Usability / Mixed Methods</p>
+      <p class="case-lead">I led a mixed-methods study of an in-vehicle interface to learn how the same design works for people with and without disabilities.</p>
       <div class="case-meta-grid" aria-label="Project snapshot">
         <div><strong>Role</strong><span>Lead researcher</span></div>
         <div><strong>Method</strong><span>Real-road simulator, SCAS, SUS, interviews</span></div>
         <div><strong>Participants</strong><span>41 people across three locations</span></div>
-        <div><strong>Domain</strong><span>Shared autonomous mobility</span></div>
+        <div><strong>Status</strong><span>Dissertation research; manuscript under review</span></div>
       </div>
     </div>
     <img class="case-hero__visual" src="/images/portfolio/accessible-av-ihmi-case.svg" alt="Diagram of a real-road autonomous vehicle simulator and interface factors including accessibility, safety, verbosity, and adoption.">
@@ -210,11 +211,12 @@ card:
   </section>
 
   <section class="case-section">
-    <h2>Impact</h2>
+    <h2>Outcomes</h2>
     <div class="case-impact">
-      <div><strong>Evaluation impact</strong><span>Converted a complex real-road AV simulation into evidence about trust, control, safety, and information load.</span></div>
-      <div><strong>Accessibility impact</strong><span>Showed why accessible features must be evaluated with both disabled and non-disabled users in shared mobility contexts.</span></div>
-      <div><strong>Product impact</strong><span>Produced design guidance for adaptive iHMI systems that can support independence without creating unnecessary friction.</span></div>
+      <div><strong>Research outcome</strong><span>Used a real-road simulation to study trust, control, safety, and information needs.</span></div>
+      <div><strong>Accessibility finding</strong><span>Showed why teams should test accessible features with both disabled and non-disabled users.</span></div>
+      <div><strong>Product relevance</strong><span>Produced guidance for interfaces that adjust information and controls to different user needs.</span></div>
     </div>
+    <p class="case-cta"><strong>Broader relevance:</strong> The findings also apply to shared devices and services that use voice, audio feedback, personalization, and safety alerts.</p>
   </section>
 </div>
