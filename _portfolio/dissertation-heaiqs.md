@@ -23,6 +23,21 @@ card:
     - Statistical validation
 ---
 
+<div class="case-study-gate" data-case-study-gate data-password-digest="6e790b2dfcf6da2b6e21302bf024e2a28397a874e754ee00fb37349e37facafd">
+  <section class="case-study-gate__panel" data-gate-panel aria-labelledby="case-study-gate-title">
+    <p class="case-study-gate__eyebrow">Protected dissertation research</p>
+    <h2 id="case-study-gate-title">Dissertation Study 1</h2>
+    <p>This case study contains ongoing dissertation work. Enter the shared password to view the full project.</p>
+    <form class="case-study-gate__form" data-gate-form>
+      <label for="case-study-password">Password</label>
+      <div class="case-study-gate__controls">
+        <input id="case-study-password" name="password" type="password" autocomplete="current-password" required data-gate-password>
+        <button type="submit">View case study</button>
+      </div>
+      <p class="case-study-gate__error" data-gate-error role="alert" hidden>That password is not correct. Please try again.</p>
+    </form>
+  </section>
+  <div class="case-study-gate__content" data-gate-content hidden>
 <div class="case-study">
   <section class="case-hero">
     <div class="case-hero__copy">
@@ -199,3 +214,6 @@ card:
 
   <p class="dissertation-note">Dissertation Study 1 of 3. Part of <em>Understanding Human-AI Relationships in Autonomous Vehicles</em>.</p>
 </div>
+  </div>
+</div>
+<script src="/assets/js/case-study-gate.js" defer></script>
