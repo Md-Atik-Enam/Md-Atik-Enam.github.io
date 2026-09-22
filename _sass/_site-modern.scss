@@ -1841,3 +1841,62 @@ h3,
     text-align: left;
   }
 }
+
+
+/* Detailed research timelines and method-choice cards */
+.case-duration--detailed .case-duration__bar,
+.case-duration--detailed .case-duration__axis,
+.case-duration--detailed .case-duration__note {
+  min-width: 820px;
+}
+
+.case-duration__segment--prototype {
+  background: linear-gradient(135deg, #355d83, #527aa0);
+}
+
+.case-duration__segment--report {
+  background: linear-gradient(135deg, #8d4660, #b1607d);
+}
+
+.case-duration__segment--compact {
+  padding: 0.65rem 0.35rem;
+  text-align: center;
+}
+
+.case-duration__segment--compact strong {
+  font-size: 0.76rem;
+  line-height: 1.12;
+}
+
+.case-duration__segment--compact em {
+  font-size: 0.68rem;
+  line-height: 1.12;
+}
+
+.case-method-grid--choices .is-chosen {
+  border: 2px solid rgba(11, 107, 98, 0.48);
+  border-top: 5px solid var(--modern-accent);
+  background: linear-gradient(180deg, #f1faf7, #ffffff);
+}
+
+.case-method-grid--choices .is-chosen h3 {
+  color: var(--modern-accent);
+}
+
+.case-figure-stack figure {
+  padding: 0.6rem;
+}
+
+.case-figure-stack figure img {
+  border-radius: 9px 9px 0 0;
+  background: #ffffff;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .case-duration--detailed .case-duration__bar,
+  .case-duration--detailed .case-duration__axis,
+  .case-duration--detailed .case-duration__note {
+    min-width: 760px;
+  }
+}

@@ -40,7 +40,7 @@ card:
   </section>
 
   <section class="case-section case-section--tight">
-    <h2>Problem</h2>
+    <h2>Project Objective</h2>
     <p>Generative AI systems are moving into everyday life, but older adults are often treated as secondary users or framed through deficit-based assumptions. For teams, this creates a risk: AI systems may be technically powerful yet fail on onboarding, credibility, privacy, and accessibility for a major user group.</p>
     <p>The core question was practical: after a first hands-on experience with an LLM chatbot, what makes older adults see it as useful, trustworthy, risky, or worth adopting?</p>
   </section>
@@ -96,7 +96,7 @@ card:
   </section>
 
   <section class="case-section">
-    <h2>Method Rationale</h2>
+    <h2>Method Alternatives and Choice</h2>
     <div class="case-method-grid">
       <div>
         <h3>Alternative: Survey</h3>

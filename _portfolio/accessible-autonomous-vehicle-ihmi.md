@@ -39,7 +39,7 @@ card:
   </section>
 
   <section class="case-section case-section--tight">
-    <h2>Problem</h2>
+    <h2>Project Objective</h2>
     <p>Autonomous vehicles could expand mobility for people with disabilities, but inclusive design is not just about adding accessibility features. A feature that is essential for one group can become distracting or unnecessary for another. For shared autonomous vehicles, that tension matters because the same in-vehicle interface may serve riders with very different abilities, expectations, and risk perceptions.</p>
     <p>The project asked whether accessible iHMI features change acceptance factors such as perceived safety, reliability, ease of use, control, and intention to use autonomous vehicles.</p>
   </section>
@@ -96,7 +96,7 @@ card:
   </section>
 
   <section class="case-section">
-    <h2>Method Rationale</h2>
+    <h2>Method Alternatives and Choice</h2>
     <div class="case-method-grid">
       <div>
         <h3>Alternative: Survey-only approach</h3>

@@ -39,9 +39,25 @@ card:
   </section>
 
   <section class="case-section case-section--tight">
-    <h2>Problem</h2>
+    <h2>Project Objective</h2>
     <p>AI can influence a decision before it recommends an answer. It can decide how a person's request is interpreted, which factors matter, and which options become available. Giving a user the final choice does not remove this earlier influence.</p>
     <p>The project examined two layers of authority: who defines the decision space and who acts within that space.</p>
+  </section>
+
+  <section class="case-section">
+    <h2>Research Timeline</h2>
+    <div class="case-duration case-duration--detailed" aria-label="Approximate six-month dissertation study timeline">
+      <div class="case-duration__bar">
+        <span class="case-duration__segment case-duration__segment--irb case-duration__segment--compact" style="--start: 0%; --width: 64%;"><strong>IRB (expedited)</strong><em>~4 months</em></span>
+        <span class="case-duration__segment case-duration__segment--study case-duration__segment--compact" style="--start: 64%; --width: 16%;"><strong>Recruit + collect</strong><em>~1 month</em></span>
+        <span class="case-duration__segment case-duration__segment--analysis case-duration__segment--compact" style="--start: 80%; --width: 12%;"><strong>Analysis</strong><em>~3 weeks</em></span>
+        <span class="case-duration__segment case-duration__segment--report case-duration__segment--compact" style="--start: 92%; --width: 8%;"><strong>Report</strong><em>~2 weeks</em></span>
+      </div>
+      <div class="case-duration__axis" aria-hidden="true">
+        <span>Start</span><span>Month 2</span><span>Month 4</span><span>Month 5</span><span>~Month 6</span>
+      </div>
+      <p class="case-duration__note">* Approximate active project time. Expedited IRB review was the main calendar driver.</p>
+    </div>
   </section>
 
   <section class="case-section">
@@ -52,6 +68,28 @@ card:
       <div><strong>2. Build decision space</strong><span>AURA translates the request into structured route factors.</span></div>
       <div><strong>3. Review options</strong><span>The passenger or AI can revise, approve, or negotiate the factors.</span></div>
       <div><strong>4. Select route</strong><span>The passenger, AI, or both determine the final route.</span></div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Method Alternatives and Choice</h2>
+    <div class="case-method-grid case-method-grid--choices">
+      <div>
+        <h3>Alternative: Final-choice experiment only</h3>
+        <p>Testing only who selected the final route would measure downstream control, but it would miss the earlier authority used to define the factors and options in the decision space.</p>
+      </div>
+      <div>
+        <h3>Alternative: Survey vignettes</h3>
+        <p>Vignettes could compare many situations quickly, but they would provide limited behavioral realism because participants would not build, inspect, revise, or negotiate an actual route decision.</p>
+      </div>
+      <div>
+        <h3>Alternative: Interviews only</h3>
+        <p>Interviews would provide rich explanations of agency and authorship, but they would not isolate how upstream and downstream authority changed choices and perceptions.</p>
+      </div>
+      <div class="is-chosen">
+        <h3>Chosen: Prototype, experiments, and interviews</h3>
+        <p>This was the best fit because the working AURA prototype made authority visible and manipulable, the experiments tested effects, and interviews explained how participants understood control and authorship.</p>
+      </div>
     </div>
   </section>
 
@@ -74,6 +112,24 @@ card:
         <h3>Mixed evidence</h3>
         <p>Combined interaction logs, route outcomes, questionnaire data, and thematic analysis.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Study Figures</h2>
+    <div class="case-figure-stack">
+      <figure>
+        <img src="/images/portfolio/aura-authority-framework.jpg" alt="AURA framework showing user intention, upstream authority, and downstream authority." loading="lazy">
+        <figcaption>AURA separates authority over the decision representation from authority over the final route.</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/portfolio/aura-prototype-interface.jpg" alt="AURA prototype with conversation, route controls, map, and route choices." loading="lazy">
+        <figcaption>The working prototype joined natural-language input, editable decision factors, route options, and negotiation in one interface.</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/portfolio/aura-authority-summary.jpg" alt="End-to-end model of upstream authority, decision representation, downstream authority, and final authorship." loading="lazy">
+        <figcaption>End-to-end authority model linking early decision framing to final choice and perceived authorship.</figcaption>
+      </figure>
     </div>
   </section>
 

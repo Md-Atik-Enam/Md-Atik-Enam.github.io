@@ -39,9 +39,26 @@ card:
   </section>
 
   <section class="case-section case-section--tight">
-    <h2>Problem</h2>
+    <h2>Project Objective</h2>
     <p>Designers often describe AI as an assistant, collaborator, or leader. A label alone does not establish that role. The system's actions, decision rights, and communication must support the same relationship, and users must be able to recognize it.</p>
     <p>The project separated three questions: what role the designer assigned, what role the interface behavior communicated, and what role participants recognized.</p>
+  </section>
+
+  <section class="case-section">
+    <h2>Research Timeline</h2>
+    <div class="case-duration case-duration--detailed" aria-label="Approximate eleven-week dissertation study timeline">
+      <div class="case-duration__bar">
+        <span class="case-duration__segment case-duration__segment--irb case-duration__segment--compact" style="--start: 0%; --width: 36%;"><strong>IRB (exempt)</strong><em>~1 month</em></span>
+        <span class="case-duration__segment case-duration__segment--prototype case-duration__segment--compact" style="--start: 36%; --width: 18%;"><strong>Prototype</strong><em>~2 weeks</em></span>
+        <span class="case-duration__segment case-duration__segment--study case-duration__segment--compact" style="--start: 54%; --width: 18%;"><strong>Recruit + collect</strong><em>~2 weeks</em></span>
+        <span class="case-duration__segment case-duration__segment--analysis case-duration__segment--compact" style="--start: 72%; --width: 9%;"><strong>Analysis</strong><em>~1 week</em></span>
+        <span class="case-duration__segment case-duration__segment--report case-duration__segment--compact" style="--start: 81%; --width: 19%;"><strong>Report</strong><em>~2 weeks</em></span>
+      </div>
+      <div class="case-duration__axis" aria-hidden="true">
+        <span>Start</span><span>~1 month</span><span>~6 weeks</span><span>~8 weeks</span><span>~9 weeks</span><span>~11 weeks</span>
+      </div>
+      <p class="case-duration__note">* Approximate active project time from IRB preparation through reporting.</p>
+    </div>
   </section>
 
   <section class="case-section">
@@ -51,6 +68,28 @@ card:
       <div><strong>2. Vary communication</strong><span>Crossed the roles with suggestive, facilitative, and directive wording.</span></div>
       <div><strong>3. Compare recognition</strong><span>Asked participants to rate all three possible roles.</span></div>
       <div><strong>4. Examine differences</strong><span>Used profile and continuous-score analyses to understand variation between users.</span></div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Method Alternatives and Choice</h2>
+    <div class="case-method-grid case-method-grid--choices">
+      <div>
+        <h3>Alternative: Rate one assigned role</h3>
+        <p>Asking only whether an interface seemed collaborative would be easy, but a high score would not show whether users saw it as more collaborative than observer-like or leader-like.</p>
+      </div>
+      <div>
+        <h3>Alternative: Treat the label as success</h3>
+        <p>Using the assigned role label as the outcome would confuse design intent with user recognition. It would not test whether interface behavior actually made the role clear.</p>
+      </div>
+      <div>
+        <h3>Alternative: Profile analysis only</h3>
+        <p>Profiles can describe differences between participants, but they cannot by themselves establish that the intended role was recognized across realistic alternatives.</p>
+      </div>
+      <div class="is-chosen">
+        <h3>Chosen: Comparative role audit</h3>
+        <p>This was the best fit because each participant rated all three roles. Direct contrasts, sensitivity checks, and profile analysis separated role recognition from individual variation in interpretation.</p>
+      </div>
     </div>
   </section>
 
@@ -73,6 +112,24 @@ card:
         <h3>Recourse</h3>
         <p>Users need a way to respond when the AI's actions do not match their expectations.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Study Figures</h2>
+    <div class="case-figure-stack">
+      <figure>
+        <img src="/images/portfolio/eai-figure-4-1.png" alt="Conceptual model connecting AI role, communication, authority, and user recognition." loading="lazy">
+        <figcaption>The conceptual role-legibility model used to separate designed role from perceived role.</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/portfolio/eai-figure-4-2.png" alt="Examples of interface messages used to represent different AI roles." loading="lazy">
+        <figcaption>Message and interface examples used to operationalize observer, collaborator, and leader roles.</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/portfolio/eai-figure-4-3.png" alt="Results showing how participants rated the different AI role conditions." loading="lazy">
+        <figcaption>Role-rating results used for direct recognition tests and sensitivity analysis.</figcaption>
+      </figure>
     </div>
   </section>
 

@@ -39,9 +39,26 @@ card:
   </section>
 
   <section class="case-section case-section--tight">
-    <h2>Problem</h2>
+    <h2>Project Objective</h2>
     <p>AI interfaces can feel social, personal, aware of the shared situation, or clear about what the system is doing. These qualities are related, but they are not the same. A single trust, usability, or human-likeness score cannot show which part of the interaction changed.</p>
     <p>The research goal was to create a clear measurement tool for studying these separate qualities without assuming that more human-like AI is always better.</p>
+  </section>
+
+  <section class="case-section">
+    <h2>Research Timeline</h2>
+    <div class="case-duration case-duration--detailed" aria-label="Approximate eleven-week dissertation study timeline">
+      <div class="case-duration__bar">
+        <span class="case-duration__segment case-duration__segment--irb case-duration__segment--compact" style="--start: 0%; --width: 36%;"><strong>IRB (exempt)</strong><em>~1 month</em></span>
+        <span class="case-duration__segment case-duration__segment--prototype case-duration__segment--compact" style="--start: 36%; --width: 18%;"><strong>Prototype</strong><em>~2 weeks</em></span>
+        <span class="case-duration__segment case-duration__segment--study case-duration__segment--compact" style="--start: 54%; --width: 18%;"><strong>Recruit + collect</strong><em>~2 weeks</em></span>
+        <span class="case-duration__segment case-duration__segment--analysis case-duration__segment--compact" style="--start: 72%; --width: 9%;"><strong>Analysis</strong><em>~1 week</em></span>
+        <span class="case-duration__segment case-duration__segment--report case-duration__segment--compact" style="--start: 81%; --width: 19%;"><strong>Report</strong><em>~2 weeks</em></span>
+      </div>
+      <div class="case-duration__axis" aria-hidden="true">
+        <span>Start</span><span>~1 month</span><span>~6 weeks</span><span>~8 weeks</span><span>~9 weeks</span><span>~11 weeks</span>
+      </div>
+      <p class="case-duration__note">* Approximate active project time from IRB preparation through reporting.</p>
+    </div>
   </section>
 
   <section class="case-section">
@@ -51,6 +68,28 @@ card:
       <div><strong>2. Build item pool</strong><span>Generated and reviewed 42 candidate questionnaire items.</span></div>
       <div><strong>3. Test structure</strong><span>Used exploratory factor analysis with 245 participants.</span></div>
       <div><strong>4. Refine and apply</strong><span>Used a second sample of 257 for CFA-guided refinement and a 3 x 2 experiment.</span></div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Method Alternatives and Choice</h2>
+    <div class="case-method-grid case-method-grid--choices">
+      <div>
+        <h3>Alternative: One overall rating</h3>
+        <p>A single trust, usability, or human-likeness score would be simple, but it would hide whether a design changed social response, personalization, shared presence, or operational clarity.</p>
+      </div>
+      <div>
+        <h3>Alternative: Reuse a general AI scale</h3>
+        <p>An existing general scale would reduce development time, but available measures did not cover the four interaction qualities together or fit an embodied passenger experience closely enough.</p>
+      </div>
+      <div>
+        <h3>Alternative: Interviews only</h3>
+        <p>Interviews could explain how people described the AI, but they would not provide a standardized measure for comparing interface conditions or tracking factor-level change.</p>
+      </div>
+      <div class="is-chosen">
+        <h3>Chosen: Scale development plus experiment</h3>
+        <p>This was the best fit because item development, EFA, CFA-guided refinement, and a 3 x 2 experiment could test the measurement structure and show whether each quality responded differently to design cues.</p>
+      </div>
     </div>
   </section>
 
@@ -110,6 +149,20 @@ card:
         <h3>Sensitivity checks</h3>
         <p>Compared alternative factor structures and checked whether the measurement conclusions were stable.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <h2>Study Figures</h2>
+    <div class="case-figure-stack">
+      <figure>
+        <img src="/images/portfolio/heaiqs-study-overview.jpg" alt="Overview of the HEAIQS scale, four interaction qualities, and experimental application." loading="lazy">
+        <figcaption>Study overview: a 29-item measure of four interaction qualities, followed by an experimental application.</figcaption>
+      </figure>
+      <figure>
+        <img src="/images/portfolio/heaiqs-interface-comparison.jpg" alt="Non-adaptive and adaptive versions of the in-vehicle interface used in the study." loading="lazy">
+        <figcaption>Interface conditions used to test whether adaptive cues changed perceived interaction qualities.</figcaption>
+      </figure>
     </div>
   </section>
 
