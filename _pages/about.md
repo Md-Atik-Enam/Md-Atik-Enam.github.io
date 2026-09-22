@@ -103,9 +103,9 @@ redirect_from:
     <div class="section-heading section-heading--split">
       <div>
         <p class="home-eyebrow">Research to Practice</p>
-        <h2>Selected project case studies</h2>
+        <h2>Selected research projects</h2>
       </div>
-      <p>These case studies show how I move from ambiguous research questions to study design, analysis, and recommendations for real interfaces.</p>
+      <p>These projects show how I define research questions, build studies, analyze evidence, and turn findings into practical guidance for AI products and interfaces.</p>
     </div>
 
     <div class="home-project-grid">
@@ -129,20 +129,20 @@ redirect_from:
 
     <div class="home-stats home-stats--case-studies" aria-label="Research evidence">
       <div>
-        <strong>20</strong>
-        <span>older-adult contextual interviews, ages 59-93</span>
-      </div>
-      <div>
-        <strong>41</strong>
-        <span>participants in a real-road AV simulation study</span>
-      </div>
-      <div>
-        <strong>3</strong>
-        <span>U.S. locations for autonomous-mobility ride sessions</span>
+        <strong>502</strong>
+        <span>participants across two HEAIQS development samples</span>
       </div>
       <div>
         <strong>498</strong>
-        <span>valid survey responses after a 10-person pilot</span>
+        <span>participants in the AI role-legibility study</span>
+      </div>
+      <div>
+        <strong>3</strong>
+        <span>studies of authority in generative AI decisions</span>
+      </div>
+      <div>
+        <strong>4</strong>
+        <span>interaction qualities measured by HEAIQS</span>
       </div>
     </div>
   </section>

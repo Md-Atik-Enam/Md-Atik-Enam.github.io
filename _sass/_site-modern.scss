@@ -1471,3 +1471,373 @@ html[data-theme="dark"] .portfolio-card__media {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Academic editorial refresh: 2026-09 */
+:root {
+  --modern-page-bg: #fbfaf7;
+  --modern-page-bg-2: #f3f7f6;
+  --modern-surface: rgba(255, 255, 255, 0.97);
+  --modern-surface-solid: #ffffff;
+  --modern-border: #dce4e7;
+  --modern-border-strong: #aebdc5;
+  --modern-ink: #17243a;
+  --modern-muted: #566575;
+  --modern-accent: #0b6b62;
+  --modern-accent-2: #355d83;
+  --modern-accent-3: #aa7b2f;
+  --modern-accent-4: #9a4f66;
+  --modern-soft: #eaf5f2;
+  --modern-blue-soft: #eef3f8;
+  --modern-amber-soft: #fbf3e3;
+  --modern-shadow: 0 24px 60px rgba(35, 54, 71, 0.12);
+  --modern-shadow-soft: 0 12px 32px rgba(35, 54, 71, 0.075);
+  --academic-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --academic-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  background:
+    radial-gradient(circle at 8% 4%, rgba(183, 219, 208, 0.34), transparent 28rem),
+    radial-gradient(circle at 92% 18%, rgba(205, 219, 236, 0.38), transparent 30rem),
+    linear-gradient(180deg, var(--modern-page-bg), var(--modern-page-bg-2));
+  font-family: var(--academic-sans);
+}
+
+h1,
+h2,
+h3,
+.page__title,
+.archive__item-title,
+.home-page h1,
+.home-page h2,
+.home-page h3,
+.portfolio-card__title,
+.case-study h2,
+.case-study h3 {
+  font-family: var(--academic-serif);
+  letter-spacing: -0.015em;
+}
+
+.masthead {
+  border-bottom-color: rgba(174, 189, 197, 0.72);
+  box-shadow: 0 8px 30px rgba(35, 54, 71, 0.07);
+}
+
+.masthead::before {
+  height: 3px;
+  background: linear-gradient(90deg, var(--modern-accent), var(--modern-accent-2), var(--modern-accent-3));
+}
+
+.page,
+.archive {
+  border-radius: 18px;
+  box-shadow: 0 18px 48px rgba(35, 54, 71, 0.075);
+}
+
+.home-hero__profile,
+.home-news-rail,
+.home-role-note,
+.research-grid article,
+.teaching-grid article,
+.service-panel,
+.home-project,
+.publication-card,
+.home-contact {
+  border-radius: 16px;
+}
+
+.home-hero {
+  padding-top: clamp(4.6rem, 7.2vw, 5.8rem);
+  padding-bottom: clamp(2.3rem, 4vw, 3.4rem);
+}
+
+.home-hero__copy h1 {
+  font-size: clamp(2.35rem, 4.6vw, 3.65rem);
+  font-weight: 700;
+}
+
+.home-lead {
+  font-family: var(--academic-serif);
+  font-size: clamp(1.08rem, 1.55vw, 1.28rem) !important;
+}
+
+.home-section {
+  padding: clamp(2.7rem, 5vw, 4.5rem) 0;
+}
+
+.section-heading {
+  margin-bottom: 1.5rem;
+}
+
+.home-project-grid,
+.publication-grid,
+.research-grid,
+.teaching-grid {
+  gap: 1.25rem;
+}
+
+.portfolio-overview {
+  gap: clamp(1.2rem, 4vw, 3rem);
+  margin-bottom: clamp(2rem, 4vw, 3.2rem);
+  padding: clamp(1.35rem, 3vw, 2.1rem);
+  border: 1px solid var(--modern-border);
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.98), rgba(244,249,248,0.96));
+  box-shadow: var(--modern-shadow-soft);
+}
+
+.portfolio-intro {
+  color: var(--modern-ink);
+  font-family: var(--academic-serif);
+  font-size: clamp(1.02rem, 1.45vw, 1.16rem);
+  line-height: 1.68;
+}
+
+.portfolio-quick-facts {
+  align-content: flex-start;
+  gap: 0.6rem;
+}
+
+.portfolio-quick-facts span,
+.portfolio-card__tags span {
+  min-height: 1.95rem;
+  padding: 0.3rem 0.68rem;
+  border-radius: 999px;
+  background: #f5f9f8;
+  font-size: 0.74rem;
+}
+
+.portfolio-card-list {
+  gap: clamp(2rem, 4vw, 3.1rem);
+}
+
+.portfolio-card {
+  grid-template-columns: minmax(285px, 0.44fr) minmax(0, 1fr);
+  min-height: 360px;
+  border: 1px solid var(--modern-border);
+  border-radius: 20px;
+  background: var(--modern-surface-solid);
+  box-shadow: 0 16px 44px rgba(35, 54, 71, 0.09);
+  overflow: hidden;
+}
+
+.portfolio-card:nth-child(3n + 2) {
+  border-color: #d9e3ee;
+}
+
+.portfolio-card:nth-child(3n) {
+  border-color: #e8dfcf;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--modern-border-strong);
+  box-shadow: 0 24px 58px rgba(35, 54, 71, 0.14);
+}
+
+.portfolio-card__media {
+  min-height: 360px;
+  padding: clamp(1.1rem, 2.2vw, 1.6rem);
+  background:
+    radial-gradient(circle at 16% 16%, rgba(255,255,255,0.92), transparent 34%),
+    linear-gradient(145deg, #e3f4f0, #edf3fa 58%, #fbf3e3);
+}
+
+.portfolio-card:nth-child(3n + 2) .portfolio-card__media {
+  background: linear-gradient(145deg, #edf3fa, #f6f3ed);
+}
+
+.portfolio-card:nth-child(3n) .portfolio-card__media {
+  background: linear-gradient(145deg, #f5f0e5, #edf5f2);
+}
+
+.portfolio-card__media img {
+  border: 0;
+  border-radius: 14px;
+  box-shadow: 0 18px 38px rgba(35, 54, 71, 0.13);
+}
+
+.portfolio-card__stat {
+  right: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(53, 93, 131, 0.16);
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(35, 54, 71, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+.portfolio-card__body {
+  align-self: center;
+  padding: clamp(1.45rem, 3vw, 2.15rem);
+}
+
+.portfolio-card__label {
+  margin-bottom: 0.65rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.portfolio-card__title {
+  margin-bottom: 0.75rem;
+  font-size: clamp(1.45rem, 2.4vw, 1.95rem);
+  line-height: 1.15;
+}
+
+.portfolio-card__excerpt {
+  max-width: 720px;
+  margin-bottom: 1.15rem;
+  font-size: 0.97rem;
+  line-height: 1.65;
+}
+
+.portfolio-card__facts {
+  gap: 0.9rem 1.2rem;
+  margin-bottom: 1.1rem;
+}
+
+.portfolio-card__facts div {
+  padding-top: 0.8rem;
+}
+
+.portfolio-card__facts dt {
+  color: var(--modern-accent-2);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-card__facts dd {
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.portfolio-card__link,
+.archive .portfolio-card__link {
+  min-height: 2.5rem;
+  padding: 0.62rem 0.9rem;
+  border-radius: 999px;
+}
+
+.case-hero {
+  gap: clamp(1.4rem, 4vw, 3rem);
+  margin-bottom: 2.7rem;
+  padding: clamp(1.35rem, 3vw, 2.2rem);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.98), rgba(239,247,247,0.94)) padding-box,
+    linear-gradient(135deg, rgba(11,107,98,0.42), rgba(53,93,131,0.35), rgba(170,123,47,0.30)) border-box;
+}
+
+.case-lead {
+  font-family: var(--academic-serif);
+  font-size: clamp(1.08rem, 1.65vw, 1.26rem);
+  line-height: 1.58;
+}
+
+.case-meta-grid div,
+.case-metric-grid div,
+.case-impact div,
+.case-recommendations div,
+.case-insight-grid article,
+.case-timeline div,
+.case-method-grid div,
+.case-stat,
+.case-quote-grid blockquote,
+.case-figure-stack figure {
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(35, 54, 71, 0.055);
+}
+
+.case-section {
+  margin: clamp(2.2rem, 4.6vw, 3.8rem) 0;
+}
+
+.case-section h2 {
+  margin-bottom: 1rem;
+  color: var(--modern-ink);
+  font-size: clamp(1.38rem, 2.2vw, 1.75rem);
+}
+
+.case-section h2::after {
+  width: 3.4rem;
+  height: 2px;
+  margin-top: 0.65rem;
+  background: linear-gradient(90deg, var(--modern-accent), var(--modern-accent-3));
+}
+
+.case-timeline,
+.case-meta-grid,
+.case-metric-grid,
+.case-impact,
+.case-recommendations,
+.case-insight-grid,
+.case-method-grid,
+.case-evidence-grid,
+.case-quote-grid {
+  gap: 1rem;
+}
+
+.case-timeline div,
+.case-insight-grid article,
+.case-recommendations div,
+.case-metric-grid div,
+.case-impact div,
+.case-method-grid div,
+.case-stat {
+  padding: 1.05rem;
+}
+
+.dissertation-note {
+  margin: 3.5rem 0 0 !important;
+  padding-top: 1rem;
+  border-top: 1px solid var(--modern-border);
+  color: var(--modern-muted) !important;
+  font-size: 0.74rem !important;
+  line-height: 1.45 !important;
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .portfolio-card {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-card__media {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 640px) {
+  .portfolio-overview {
+    padding: 1.1rem;
+  }
+
+  .portfolio-card-list {
+    gap: 1.6rem;
+  }
+
+  .portfolio-card {
+    border-radius: 16px;
+  }
+
+  .portfolio-card__body {
+    padding: 1.25rem;
+  }
+
+  .portfolio-card__media {
+    min-height: 230px;
+  }
+
+  .portfolio-card__stat {
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .dissertation-note {
+    text-align: left;
+  }
+}

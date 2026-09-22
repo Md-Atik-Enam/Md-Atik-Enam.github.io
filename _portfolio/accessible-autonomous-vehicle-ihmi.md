@@ -3,7 +3,7 @@ title: "Evaluating an Accessible In-Vehicle Interface"
 excerpt: "Mixed-methods study of how people with and without disabilities use and evaluate the same in-vehicle interface."
 collection: portfolio
 permalink: /portfolio/accessible-autonomous-vehicle-ihmi/
-order: 2
+order: 5
 author: atik
 header:
   teaser: portfolio/accessible-av-ihmi-thumb.svg
@@ -13,7 +13,6 @@ card:
   sample: "41 participants across disability and non-disability groups"
   evidence: "Pre/post acceptance data, SUS ratings, thematic interview analysis"
   impact: "Produced design recommendations for information level, voice interaction, safety feedback, and user control."
-  status: "Dissertation research; manuscript under review"
   stat: "41"
   stat_label: "participants across three U.S. real-road simulation sites"
   thumbnail_alt: "Thumbnail summarizing a mixed-methods autonomous vehicle iHMI evaluation with real-road simulator data and accessibility findings."
@@ -33,7 +32,7 @@ card:
         <div><strong>Role</strong><span>Lead researcher</span></div>
         <div><strong>Method</strong><span>Real-road simulator, SCAS, SUS, interviews</span></div>
         <div><strong>Participants</strong><span>41 people across three locations</span></div>
-        <div><strong>Status</strong><span>Dissertation research; manuscript under review</span></div>
+        <div><strong>Domain</strong><span>Accessible autonomous mobility</span></div>
       </div>
     </div>
     <img class="case-hero__visual" src="/images/portfolio/accessible-av-ihmi-case.svg" alt="Diagram of a real-road autonomous vehicle simulator and interface factors including accessibility, safety, verbosity, and adoption.">

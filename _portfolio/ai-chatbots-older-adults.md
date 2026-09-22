@@ -3,7 +3,7 @@ title: "How Older Adults Evaluate AI Chatbots"
 excerpt: "Interview study of how older adults judge the usefulness, trust, privacy, and accessibility of AI chatbots."
 collection: portfolio
 permalink: /portfolio/inclusive-ai-older-adults/
-order: 1
+order: 4
 author: atik
 header:
   teaser: portfolio/llm-older-adults-thumb.svg
