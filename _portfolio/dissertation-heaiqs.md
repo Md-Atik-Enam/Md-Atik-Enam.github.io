@@ -9,6 +9,7 @@ header:
   teaser: portfolio/dissertation-heaiqs.svg
 card:
   label: "Measurement and UX Metrics"
+  locked: true
   methods: "Item development, EFA, CFA, 3 x 2 experiment"
   sample: "502 participants across two independent samples"
   evidence: "42 initial items, 29 final items, four-factor structure"

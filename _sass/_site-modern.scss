@@ -2003,3 +2003,48 @@ h3,
     flex-basis: auto;
   }
 }
+
+
+/* Portfolio visibility badges */
+.portfolio-card__media {
+  position: relative;
+}
+
+.portfolio-card__lock {
+  position: absolute;
+  top: 1.35rem;
+  left: 1.35rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  min-height: 2rem;
+  padding: 0.38rem 0.68rem 0.38rem 0.55rem;
+  border: 1px solid rgba(11, 107, 98, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--modern-ink);
+  box-shadow: 0 8px 18px rgba(35, 54, 71, 0.13);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.portfolio-card__lock svg {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--modern-accent);
+}
+
+.portfolio-card__lock span {
+  color: var(--modern-ink);
+}
+
+@media (max-width: 640px) {
+  .portfolio-card__lock {
+    top: 1rem;
+    left: 1rem;
+  }
+}

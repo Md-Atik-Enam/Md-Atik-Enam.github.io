@@ -9,6 +9,7 @@ header:
   teaser: portfolio/dissertation-authority.svg
 card:
   label: "Generative AI Decision Research"
+  locked: true
   methods: "Prototype, two experiments, semi-structured interviews"
   sample: "229 participants across three connected studies"
   evidence: "Decision paths, route outcomes, scale data, thematic analysis"
