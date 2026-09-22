@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 title: "Md Atik Enam"
-excerpt: "Human-centered computing researcher studying accessible mobility, human-AI interaction, and inclusive technology design."
+excerpt: "Human-centered computing researcher studying human-AI relationships and human–autonomy teaming in autonomous mobility, with a secondary focus on accessibility."
 author_profile: false
 redirect_from:
   - /about/
@@ -22,15 +22,15 @@ redirect_from:
         <span>Expected Fall 2026, Clemson University</span>
         <span>B.S. and M.S. in Computer Science</span>
         <span>DRIVE Lab, CU-ICAR</span>
-        <span>Accessible mobility and human-AI teaming with embodied systems</span>
+        <span>Human–AI interaction and accessible autonomy in mobility</span>
       </div>
     </div>
 
     <div class="home-hero__copy">
       <p class="home-eyebrow">Human-Centered Computing Researcher</p>
       <h1>Md Atik Enam</h1>
-      <p class="home-lead">I design and study accessible, trustworthy human-AI teaming with embodied systems for mobility, aging, and learning.</p>
-      <p>I am a Human-Centered Computing researcher and Graduate Research Assistant in the DRIVE Lab at CU-ICAR. My work connects human factors, automotive systems, artificial intelligence, accessibility, and HCI methods to study how emerging technologies can better serve people with diverse needs. Much of this work has been grounded in in-vehicle interfaces, intelligent transportation systems, and autonomous vehicle contexts, where I have studied how people interact with increasingly capable AI-driven technologies in real-world settings. These experiences inform my broader research agenda on designing AI systems that are accessible, trustworthy, and effective across domains.</p>
+      <p class="home-lead">I study how people understand, trust, and coordinate with AI in autonomous vehicles—and translate those findings into accessible, evidence-driven interaction design.</p>
+      <p>I am a Human-Centered Computing researcher and Graduate Research Assistant in the DRIVE Lab at CU-ICAR. My dissertation, <em>Understanding Human-AI Relationships in Autonomous Vehicles</em>, examines how people recognize AI roles, negotiate authority, evaluate interaction quality, and make decisions with increasingly capable in-vehicle AI. Within this primary agenda, I also study how autonomous mobility can better support people with disabilities. I combine qualitative and quantitative user research, scale development, field studies, and interface evaluation to produce insights for HCI, human factors, UX research, and the design of trustworthy autonomous systems.</p>
       <a class="home-email-link" href="mailto:menam@clemson.edu">menam@clemson.edu</a>
       <div class="home-actions" aria-label="Primary links">
         <a class="home-button home-button--primary" href="#publications">Publications</a>
@@ -38,7 +38,7 @@ redirect_from:
       </div>
       <div class="home-role-note" aria-label="Open to research roles">
         <strong>Open to research roles</strong>
-        <span>Seeking faculty, postdoctoral, and industry research opportunities where rigorous HCI research can shape accessible, evidence-driven AI systems.</span>
+        <span>Seeking faculty, postdoctoral, UX research, and industry research opportunities where rigorous human-centered research can shape trustworthy, accessible autonomous systems.</span>
       </div>
     </div>
 
@@ -64,22 +64,22 @@ redirect_from:
   <section id="research" class="home-section">
     <div class="section-heading">
       <p class="home-eyebrow">Research Vision</p>
-      <h2>Adaptive human-AI teaming with embodied systems.</h2>
-      <p>My research vision is to help embodied AI systems understand human variability, adapt collaboration strategies, and support shared decision-making with people in real-world contexts. Autonomous vehicles are my primary testbed because they make the stakes visible: people and AI must negotiate authority, exchange timely information, and act safely in dynamic environments. The broader goal is to move beyond one-size-fits-all AI toward systems that can support accessible mobility, older adults, people with disabilities, and teams operating under changing demands.</p>
+      <h2>Human–AI relationships in autonomous mobility.</h2>
+      <p>My primary research agenda investigates human–AI relationships in autonomous vehicles: how people interpret an AI system’s role, understand its authority, evaluate the quality of an interaction, and coordinate decisions with it. I use autonomous mobility as a consequential real-world setting for advancing human–autonomy teaming and interaction design. A connected secondary strand examines accessibility—especially how autonomous vehicles and ridesharing systems can support blind and low-vision travelers and other people with disabilities.</p>
     </div>
 
     <div class="research-grid">
       <article>
-        <h3>Human Variability</h3>
-        <p>Understanding how differences in ability, context, trust, workload, and expectations shape collaboration with embodied AI systems.</p>
+        <h3>Human–AI Relationships</h3>
+        <p>Understanding how people recognize AI roles, form expectations, calibrate trust, and evaluate interaction quality in autonomous vehicles.</p>
       </article>
       <article>
-        <h3>Adaptive Teaming</h3>
-        <p>Designing AI teammates that can shift communication, authority, and interaction style based on user needs and situational demands.</p>
+        <h3>Authority and Teaming</h3>
+        <p>Studying how humans and AI negotiate decision authority, communicate intent, and coordinate safely across changing situations.</p>
       </article>
       <article>
-        <h3>Shared Decision Spaces</h3>
-        <p>Creating interfaces where humans and embodied AI can construct, explore, and negotiate decisions instead of only receiving recommendations.</p>
+        <h3>Accessible Autonomous Mobility</h3>
+        <p>Identifying and addressing interaction barriers so autonomous vehicles and mobility services work for people with diverse abilities.</p>
       </article>
     </div>
   </section>
