@@ -1,61 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
-<title id="title">Dimensioned top view of illustrative autonomous vehicle cabin</title>
-<desc id="desc">Top view showing assumed front and rear eye points, center HMI, driver HUD region, lateral seat positions, and modeled cabin distances.</desc>
-<defs>
- <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#335d52"/></marker>
- <marker id="redArrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#c65a43"/></marker>
-</defs>
+<title id="title">Dimensioned top view of an illustrative autonomous vehicle cabin</title>
+<desc id="desc">A scaled top view showing the modeled 1.55 metre distance between front and rear eye rows, 0.68 metre lateral eye-point spacing, 0.72 metre forward offset to the center display, and three-dimensional screen distances.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#335d52"/></marker><marker id="r" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#c65a43"/></marker></defs>
 <rect width="1200" height="820" rx="24" fill="#f5f8f6"/>
 <text x="54" y="58" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#173d37">Illustrative AV cabin • dimensioned top view</text>
-<text x="54" y="91" font-family="Arial,sans-serif" font-size="17" fill="#56655e">Coordinate assumptions from the Python model; dimensions are not vehicle measurements.</text>
-<!-- vehicle shell -->
-<path d="M360 143 Q375 115 425 108 L770 108 Q825 116 839 158 L870 692 Q856 731 810 744 L385 744 Q343 729 332 692 L350 168 Q352 151 360 143Z" fill="#e5ede9" stroke="#6c8a7e" stroke-width="5"/>
-<path d="M385 157 Q600 127 814 157 L825 250 L375 250Z" fill="#c9e2e9" stroke="#6592a0" stroke-width="3"/>
-<text x="505" y="191" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#245865">WINDSHIELD</text>
-<text x="505" y="217" font-family="Arial,sans-serif" font-size="15" fill="#3b6772">HUD projection / driver eye box</text>
-<!-- dashboard and main HMI -->
-<path d="M373 255 Q600 232 825 255 L819 313 Q602 294 378 313Z" fill="#bdcec6" stroke="#739084" stroke-width="2"/>
-<rect x="586" y="267" width="28" height="50" rx="5" fill="#173d37"/>
-<text x="632" y="288" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#173d37">CENTER HMI</text>
-<!-- front seats -->
-<rect x="424" y="339" width="142" height="144" rx="34" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
-<rect x="634" y="339" width="142" height="144" rx="34" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
-<rect x="462" y="350" width="65" height="33" rx="13" fill="#9bb3a8"/>
-<rect x="673" y="350" width="65" height="33" rx="13" fill="#9bb3a8"/>
-<text x="453" y="441" font-family="Arial,sans-serif" font-size="17" fill="#36544a">Front driver</text>
-<text x="660" y="441" font-family="Arial,sans-serif" font-size="17" fill="#36544a">Front passenger</text>
-<!-- rear seats -->
-<rect x="424" y="558" width="142" height="126" rx="32" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
-<rect x="634" y="558" width="142" height="126" rx="32" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
-<rect x="462" y="568" width="65" height="31" rx="12" fill="#9bb3a8"/>
-<rect x="673" y="568" width="65" height="31" rx="12" fill="#9bb3a8"/>
-<text x="453" y="652" font-family="Arial,sans-serif" font-size="17" fill="#36544a">Rear left</text>
-<text x="660" y="652" font-family="Arial,sans-serif" font-size="17" fill="#36544a">Rear right</text>
-<!-- modeled eye points -->
-<g fill="#c9513d" stroke="#fff" stroke-width="3"><circle cx="480" cy="405" r="13"/><circle cx="720" cy="405" r="13"/><circle cx="480" cy="637" r="13"/><circle cx="720" cy="637" r="13"/></g>
-<text x="494" y="402" font-family="Arial,sans-serif" font-size="13" fill="#963d30">eye point</text>
-<!-- display sight vectors -->
-<path d="M480 405 L600 292 M720 405 L600 292 M480 637 L600 292 M720 637 L600 292" stroke="#d48a40" stroke-width="3" stroke-dasharray="9 8" fill="none" marker-end="url(#redArrow)"/>
-<!-- dimension: lateral modeled eye coordinates -->
-<line x1="480" y1="510" x2="720" y2="510" stroke="#335d52" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-<line x1="480" y1="492" x2="480" y2="520" stroke="#335d52" stroke-width="2"/><line x1="720" y1="492" x2="720" y2="520" stroke="#335d52" stroke-width="2"/>
-<rect x="542" y="492" width="116" height="35" rx="7" fill="#f5f8f6"/>
-<text x="553" y="516" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#335d52">0.68 m*</text>
-<!-- dimension: row spacing -->
-<line x1="323" y1="405" x2="323" y2="637" stroke="#335d52" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-<line x1="323" y1="405" x2="410" y2="405" stroke="#335d52" stroke-width="2"/><line x1="323" y1="637" x2="410" y2="637" stroke="#335d52" stroke-width="2"/>
-<text x="188" y="510" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#335d52">1.55 m</text>
-<text x="188" y="534" font-family="Arial,sans-serif" font-size="14" fill="#56655e">eye-row spacing</text>
-<!-- forward offset -->
-<line x1="900" y1="292" x2="900" y2="405" stroke="#335d52" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-<line x1="820" y1="292" x2="914" y2="292" stroke="#335d52" stroke-width="2"/><line x1="780" y1="405" x2="914" y2="405" stroke="#335d52" stroke-width="2"/>
-<text x="922" y="342" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#335d52">0.72 m</text>
-<text x="922" y="366" font-family="Arial,sans-serif" font-size="14" fill="#56655e">front eyes to</text>
-<text x="922" y="386" font-family="Arial,sans-serif" font-size="14" fill="#56655e">display plane</text>
-<!-- callouts -->
-<rect x="901" y="450" width="246" height="111" rx="15" fill="#fff" stroke="#d4dfd9" stroke-width="2"/>
-<text x="922" y="481" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#173d37">3D eye-to-HMI distance</text>
-<text x="922" y="514" font-family="Arial,sans-serif" font-size="17" fill="#36544a">Front: 0.83 m</text>
-<text x="922" y="541" font-family="Arial,sans-serif" font-size="17" fill="#36544a">Rear: 2.31 m</text>
-<text x="54" y="779" font-family="Arial,sans-serif" font-size="14" fill="#66766e">* Lateral eye-point separation is 0.68 m (±0.34 m from center). Seat structure, visibility, optics, and occupant movement are not modeled.</text>
+<text x="54" y="91" font-family="Arial,sans-serif" font-size="17" fill="#56655e">One common scale for the modeled x/y coordinates; not a vehicle measurement.</text>
+<!-- plan view cabin; scale is about 150 px per metre longitudinally and laterally -->
+<path d="M425 145 Q440 112 485 106 L715 106 Q760 112 775 145 L793 694 Q780 730 744 742 L456 742 Q420 730 407 694Z" fill="#e5ede9" stroke="#6c8a7e" stroke-width="5"/>
+<path d="M443 155 Q600 127 757 155 L769 264 L431 264Z" fill="#c9e2e9" stroke="#6592a0" stroke-width="3"/>
+<text x="545" y="190" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#245865">WINDSHIELD</text>
+<text x="506" y="219" font-family="Arial,sans-serif" font-size="15" fill="#3b6772">HUD zone • driver eye box assumed</text>
+<!-- dashboard + center display; plane at x=.72 m forward of front row -->
+<path d="M434 268 Q600 249 766 268 L762 321 Q600 304 438 321Z" fill="#bdcec6" stroke="#739084" stroke-width="2"/>
+<rect x="589" y="266" width="22" height="44" rx="5" fill="#173d37"/>
+<text x="624" y="288" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#173d37">CENTER HMI</text>
+<!-- seats: centers match ±0.34m y coordinates -->
+<rect x="503" y="343" width="92" height="125" rx="25" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
+<rect x="605" y="343" width="92" height="125" rx="25" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
+<rect x="530" y="352" width="38" height="25" rx="9" fill="#9bb3a8"/><rect x="632" y="352" width="38" height="25" rx="9" fill="#9bb3a8"/>
+<text x="513" y="437" font-family="Arial,sans-serif" font-size="13" fill="#36544a">DRIVER</text><text x="610" y="437" font-family="Arial,sans-serif" font-size="13" fill="#36544a">FRONT RIDER</text>
+<rect x="503" y="575" width="92" height="122" rx="24" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
+<rect x="605" y="575" width="92" height="122" rx="24" fill="#d4ded9" stroke="#799287" stroke-width="3"/>
+<rect x="530" y="584" width="38" height="24" rx="9" fill="#9bb3a8"/><rect x="632" y="584" width="38" height="24" rx="9" fill="#9bb3a8"/>
+<text x="514" y="665" font-family="Arial,sans-serif" font-size="13" fill="#36544a">REAR LEFT</text><text x="610" y="665" font-family="Arial,sans-serif" font-size="13" fill="#36544a">REAR RIGHT</text>
+<!-- eye points: x +/- 0.34m (102 px apart); row delta 1.55m (232 px) -->
+<g fill="#c9513d" stroke="#fff" stroke-width="3"><circle cx="549" cy="405" r="11"/><circle cx="651" cy="405" r="11"/><circle cx="549" cy="637" r="11"/><circle cx="651" cy="637" r="11"/></g>
+<text x="565" y="399" font-family="Arial,sans-serif" font-size="12" fill="#963d30">eye points</text>
+<!-- geometric sight lines only -->
+<path d="M549 405L600 288M651 405L600 288M549 637L600 288M651 637L600 288" stroke="#d48a40" stroke-width="2.5" stroke-dasharray="8 7" fill="none" marker-end="url(#r)"/>
+<!-- row spacing: 232 px = 1.55m -->
+<line x1="385" y1="405" x2="385" y2="637" stroke="#335d52" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="385" y1="405" x2="485" y2="405" stroke="#335d52" stroke-width="2"/><line x1="385" y1="637" x2="485" y2="637" stroke="#335d52" stroke-width="2"/>
+<text x="218" y="505" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#335d52">1.55 m</text><text x="218" y="529" font-family="Arial,sans-serif" font-size="14" fill="#56655e">front-to-rear</text><text x="218" y="549" font-family="Arial,sans-serif" font-size="14" fill="#56655e">eye-row spacing</text>
+<!-- lateral spacing: 102 px = 0.68m -->
+<line x1="549" y1="510" x2="651" y2="510" stroke="#335d52" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="549" y1="470" x2="549" y2="522" stroke="#335d52" stroke-width="2"/><line x1="651" y1="470" x2="651" y2="522" stroke="#335d52" stroke-width="2"/>
+<rect x="569" y="490" width="62" height="30" rx="6" fill="#f5f8f6"/><text x="577" y="511" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#335d52">0.68 m</text>
+<!-- longitudinal offset from front eye row to center display -->
+<line x1="824" y1="288" x2="824" y2="405" stroke="#335d52" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<line x1="615" y1="288" x2="839" y2="288" stroke="#335d52" stroke-width="2"/><line x1="662" y1="405" x2="839" y2="405" stroke="#335d52" stroke-width="2"/>
+<text x="843" y="335" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#335d52">0.72 m</text><text x="843" y="358" font-family="Arial,sans-serif" font-size="14" fill="#56655e">front eye row to</text><text x="843" y="378" font-family="Arial,sans-serif" font-size="14" fill="#56655e">display plane</text>
+<!-- calculated 3D screen distances -->
+<rect x="843" y="445" width="285" height="118" rx="14" fill="#fff" stroke="#d4dfd9" stroke-width="2"/>
+<text x="862" y="477" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#173d37">Calculated 3D eye-to-HMI</text>
+<text x="862" y="512" font-family="Arial,sans-serif" font-size="16" fill="#36544a">Front row: 0.83 m</text><text x="862" y="540" font-family="Arial,sans-serif" font-size="16" fill="#36544a">Rear row: 2.31 m</text>
+<text x="54" y="782" font-family="Arial,sans-serif" font-size="14" fill="#66766e">Dashed rays are geometric only. Seat/headrest occlusion, HUD optics, reflections, and occupant movement are not modeled.</text>
 </svg>
