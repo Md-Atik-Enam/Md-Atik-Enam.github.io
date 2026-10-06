@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+<title id="title">Nighttime autonomous vehicle alert study</title>
+<desc id="desc">Top view of a vehicle with front and rear occupants, a driver HUD zone, center display, and an emergency alert.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102b2a"/><stop offset="1" stop-color="#244d48"/></linearGradient></defs>
+<rect width="760" height="420" rx="28" fill="url(#bg)"/>
+<text x="42" y="55" fill="#b5d3cb" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">VISION • AUTOMOTIVE HMI • NIGHT SAFETY</text>
+<text x="42" y="102" fill="#fff" font-family="Arial,sans-serif" font-size="30" font-weight="700">Can passengers see the stop?</text>
+<path d="M285 145 Q310 125 450 125 Q500 130 520 168 L535 354 Q520 386 470 392 L290 392 Q250 382 245 350 L260 174 Q265 153 285 145Z" fill="#dfe9e4" stroke="#8ab3a6" stroke-width="4"/>
+<path d="M280 180 Q390 157 500 180 L493 230 L287 230Z" fill="#9dc8d5" stroke="#477b88" stroke-width="3"/>
+<text x="326" y="204" fill="#174952" font-family="Arial,sans-serif" font-size="15" font-weight="700">WINDSHIELD / HUD</text>
+<rect x="370" y="237" width="42" height="15" rx="4" fill="#173d37"/>
+<g fill="#244b45"><circle cx="320" cy="277" r="19"/><circle cx="447" cy="277" r="19"/><circle cx="320" cy="337" r="19"/><circle cx="447" cy="337" r="19"/></g>
+<g fill="#fff"><circle cx="320" cy="277" r="6"/><circle cx="447" cy="277" r="6"/><circle cx="320" cy="337" r="6"/><circle cx="447" cy="337" r="6"/></g>
+<path d="M389 300 L345 277 M389 300 L425 277 M389 300 L345 337 M389 300 L425 337" stroke="#e28d47" stroke-width="3" stroke-dasharray="7 6"/>
+<circle cx="389" cy="300" r="23" fill="#c9513d"/><path d="M389 284 L389 302 M389 310 L389 312" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+<line x1="222" y1="277" x2="222" y2="337" stroke="#f1c06c" stroke-width="2"/><path d="M216 277h12M216 337h12" stroke="#f1c06c" stroke-width="2"/>
+<text x="41" y="291" fill="#f6d590" font-family="Arial,sans-serif" font-size="16">1.55 m seat-row spacing</text>
+<text x="42" y="322" fill="#d5e7df" font-family="Arial,sans-serif" font-size="14">Illustrative cabin model</text>
+<rect x="567" y="165" width="151" height="104" rx="15" fill="#183b35" stroke="#78b09d" stroke-width="2"/>
+<text x="585" y="195" fill="#b9d7cd" font-family="Arial,sans-serif" font-size="13" font-weight="700">ALERT REACH</text>
+<text x="585" y="229" fill="#fff" font-family="Arial,sans-serif" font-size="24" font-weight="700">4 seats</text>
+<text x="585" y="251" fill="#c8ded6" font-family="Arial,sans-serif" font-size="12">modeled eye points</text>
+<text x="42" y="379" fill="#c6dcd3" font-family="Arial,sans-serif" font-size="14">Geometry and glare sensitivity • no human participants</text>
+</svg>
