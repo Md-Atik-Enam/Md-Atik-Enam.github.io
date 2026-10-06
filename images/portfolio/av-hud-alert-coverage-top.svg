@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Top-view alert delivery paths in an autonomous vehicle</title>
+<desc id="desc">Diagram comparing a driver-limited HUD, a center dashboard screen, and a dedicated rear-row alert channel for an emergency stop.</desc>
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#315c51"/></marker></defs>
+<rect width="1200" height="700" rx="24" fill="#f5f8f6"/>
+<text x="52" y="58" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#173d37">Alert coverage is a cabin problem, not only a HUD problem</text>
+<text x="52" y="91" font-family="Arial,sans-serif" font-size="16" fill="#56655e">Top view • proposed channels for an AV emergency stop • not evaluated on a real vehicle</text>
+<!-- Cabin -->
+<path d="M340 137 Q360 116 413 111 L748 111 Q800 119 817 156 L847 585 Q832 623 790 636 L390 636 Q350 622 334 584 L337 160Z" fill="#e5ede9" stroke="#6c8a7e" stroke-width="4"/>
+<path d="M367 152 Q577 125 787 152 L798 235 L360 235Z" fill="#cde3e9" stroke="#6592a0" stroke-width="2"/>
+<text x="491" y="190" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#245865">WINDSHIELD / HUD</text>
+<rect x="565" y="250" width="36" height="16" rx="4" fill="#173d37"/>
+<rect x="535" y="521" width="96" height="22" rx="5" fill="#536c63"/>
+<text x="650" y="539" font-family="Arial,sans-serif" font-size="14" fill="#36544a">optional rear display</text>
+<!-- occupants -->
+<g fill="#d4ded9" stroke="#799287" stroke-width="3"><rect x="401" y="308" width="145" height="129" rx="30"/><rect x="613" y="308" width="145" height="129" rx="30"/><rect x="401" y="475" width="145" height="115" rx="28"/><rect x="613" y="475" width="145" height="115" rx="28"/></g>
+<g fill="#c9513d" stroke="white" stroke-width="3"><circle cx="473" cy="369" r="12"/><circle cx="685" cy="369" r="12"/><circle cx="473" cy="532" r="12"/><circle cx="685" cy="532" r="12"/></g>
+<text x="420" y="414" font-family="Arial,sans-serif" font-size="14" fill="#36544a">DRIVER</text><text x="624" y="414" font-family="Arial,sans-serif" font-size="14" fill="#36544a">FRONT RIDER</text>
+<text x="430" y="576" font-family="Arial,sans-serif" font-size="14" fill="#36544a">REAR RIDER</text><text x="642" y="576" font-family="Arial,sans-serif" font-size="14" fill="#36544a">REAR RIDER</text>
+<!-- signal paths -->
+<path d="M473 369 L493 202" stroke="#247d68" stroke-width="5" stroke-dasharray="10 8" marker-end="url(#arr)"/>
+<path d="M685 369 L583 260" stroke="#d18634" stroke-width="5" stroke-dasharray="10 8" marker-end="url(#arr)"/>
+<path d="M473 532 L582 532 M685 532 L630 532" stroke="#4d79a3" stroke-width="5" stroke-dasharray="10 8" marker-end="url(#arr)"/>
+<!-- callouts -->
+<rect x="52" y="155" width="245" height="128" rx="14" fill="#e4f1ec" stroke="#92bca9" stroke-width="2"/>
+<text x="74" y="188" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#1d5d4d">1 • Driver HUD</text>
+<text x="74" y="218" font-family="Arial,sans-serif" font-size="15" fill="#36544a">Compact, non-interactive cue.</text>
+<text x="74" y="243" font-family="Arial,sans-serif" font-size="15" fill="#36544a">Driver eye box only is assumed.</text>
+<text x="74" y="266" font-family="Arial,sans-serif" font-size="13" fill="#6a5140">Do not assume rear visibility.</text>
+<rect x="872" y="155" width="275" height="128" rx="14" fill="#fff3df" stroke="#dfbd81" stroke-width="2"/>
+<text x="895" y="188" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#875b18">2 • Main front HMI</text>
+<text x="895" y="218" font-family="Arial,sans-serif" font-size="15" fill="#55472f">“Emergency stop. Obstacle ahead.”</text>
+<text x="895" y="243" font-family="Arial,sans-serif" font-size="15" fill="#55472f">Add sound; do not delay braking.</text>
+<text x="895" y="266" font-family="Arial,sans-serif" font-size="13" fill="#6a5140">Front HMI alone is not rear delivery.</text>
+<rect x="872" y="327" width="275" height="128" rx="14" fill="#e8eff7" stroke="#a1b7d0" stroke-width="2"/>
+<text x="895" y="360" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#365f89">3 • Rear alert channel</text>
+<text x="895" y="390" font-family="Arial,sans-serif" font-size="15" fill="#3c4c5b">Use a seat-designed screen, audio,</text>
+<text x="895" y="415" font-family="Arial,sans-serif" font-size="15" fill="#3c4c5b">or haptic cue for rear passengers.</text>
+<text x="895" y="439" font-family="Arial,sans-serif" font-size="13" fill="#6a5140">Check reach with real occupants.</text>
+<rect x="52" y="527" width="245" height="89" rx="14" fill="#fff" stroke="#d4dfd9" stroke-width="2"/>
+<text x="73" y="561" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#173d37">Simulation boundary</text>
+<text x="73" y="588" font-family="Arial,sans-serif" font-size="14" fill="#56655e">Sight rays omit eye box and occlusion.</text>
+<text x="52" y="667" font-family="Arial,sans-serif" font-size="14" fill="#66766e">The rear display and multimodal cues are design proposals, not proven outcomes from the geometric model.</text>
+</svg>
